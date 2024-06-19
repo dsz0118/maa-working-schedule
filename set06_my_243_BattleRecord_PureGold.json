@@ -1,0 +1,56 @@
+{
+    "author":"一图流",
+    "description":"这是个顶配243排班协议演示",
+    "id":1702203342688921,
+    "title":"243极限",
+    "buildingType":243,
+    "planTimes":"3班",
+    "plans":[
+        {
+            "name":"第06班",
+            "description":"钱书2班交接，最后一次大换班",
+            "Fiammetta":{
+                "enable":false,
+                "target":"",
+                "order":"pre"},
+            "drones":{
+                "room":"trading",
+                "index":1,
+                "enable":false,
+                "order":"pre"},
+            "rooms":{
+                "trading":[
+                    {"skip":false,"product":"LMD","operators":["巫恋","卡夫卡","龙舌兰"],"sort":true,"autofill":false},
+                    {"skip":false,"product":"LMD","operators":["但书","能天使","古米"],"sort":true,"autofill":false}],
+                "manufacture":[
+                    {"skip":false,"product":"Battle Record","operators":["Castle-3","白雪","霜叶"],"sort":true,"autofill":false},
+                    {"skip":false,"product":"Battle Record","operators":["断罪者","槐琥","至简"],"sort":true,"autofill":false},
+                    {"skip":false,"product":"Pure Gold","operators":["泡泡","火神","贝娜"],"sort":true,"autofill":false},
+                    {"skip":false,"product":"Pure Gold","operators":["苍苔","砾","斑点"],"sort":true,"autofill":false}],
+                "power":[
+                    {"skip":false,"operators":["伊芙利特"],"sort":false,"autofill":false},
+                    {"skip":false,"operators":["布丁"],"sort":false,"autofill":false},
+                    {"skip":false,"operators":["空构"],"sort":false,"autofill":false}],
+                "dormitory":[
+                    {"skip":false,"operators":["流明","柏喙","泰拉大陆调查团","孑","麒麟R夜刀"],"sort":true,"autofill":false},
+                    {"skip":false,"operators":["杜林","红云","稀音","圣约送葬人","伊内丝"],"sort":true,"autofill":false},
+                    {"skip":false,"operators":["冰酿","清流","温蒂","森蚺","晓歌"],"sort":true,"autofill":false},
+                    {"skip":false,"operators":["菲亚梅塔","斥罪","澄闪","承曦格雷伊","格雷伊"],"sort":true,"autofill":false}],
+                "control":[
+                    {"skip":false,"operators":["阿米娅","凯尔希","重岳","歌蕾蒂娅","焰影苇草"],"sort":true,"autofill":false}],
+                "meeting":[
+                    {"skip":false,"operators":["提丰","凛视"],"sort":true,"autofill":false}],
+                "hire":[
+                    {"skip":true,"operators":[],"sort":false,"autofill":false}],
+                "processing":[
+                    {"skip":true,"operators":[],"sort":false,"autofill":false}]}
+        }
+    ],
+    "scheduleType":{
+        "planTimes":1,
+        "trading":2,
+        "manufacture":4,
+        "power":3,
+        "dormitory":4},
+    "scheduleId":1705581816842091
+}

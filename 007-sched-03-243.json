@@ -1,6 +1,6 @@
 {
     "author":"xiaomo",
-    "description":"肥鸭007-3班, 对象: 但书; 休息斥罪",
+    "description":"肥鸭007-3班, 对象: 但书; 无换班",
     "id":1702203342688921,
     "title":"007-03",
     "buildingType":243,
@@ -8,7 +8,7 @@
     "plans":[
         {
             "name":"007-03班-但书",
-            "description":"肥鸭007但书, 休息斥罪",
+            "description":"肥鸭007但书, 休息材料组",
             "Fiammetta":{
                 "enable":true,
                 "target":"但书",
@@ -35,7 +35,7 @@
                     {"skip":false,"operators":["流明","白铁","九色鹿","泥岩","芳汀"],"sort":true,"autofill":false},
                     {"skip":true,"operators":[],"sort":true,"autofill":false},
                     {"skip":true,"operators":[],"sort":true,"autofill":false},
-                    {"skip":false,"operators":["菲亚梅塔", "斥罪", "琴柳"],"sort":true,"autofill":false}],
+                    {"skip":true,"operators":[],"sort":true,"autofill":false}],
                 "control":[
                     {"skip":true,"operators":[],"sort":false,"autofill":false}],
                 "meeting":[

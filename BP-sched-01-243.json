@@ -1,6 +1,6 @@
 {
     "author":"xiamo",
-    "description":"钱书1班, 休息 槐琥/苍苔 组",
+    "description":"钱书1班, 休息 槐琥/苍苔/斥罪 组",
     "id":1702203342688921,
     "title":"BP-01",
     "buildingType":243,
@@ -35,7 +35,7 @@
                     {"skip":false,"operators":["流明","断罪者","槐琥","至简","Lancet-2"],"sort":true,"autofill":false},
                     {"skip":false,"operators":["杜林","苍苔","砾","斑点","车尔尼"],"sort":true,"autofill":false},
                     {"skip":true,"operators":[],"sort":false,"autofill":false},
-                    {"skip":true,"operators":[],"sort":false,"autofill":false}],
+                    {"skip":false,"operators":["菲亚梅塔","斥罪","琴柳"],"sort":true,"autofill":false}],
                 "control":[
                     {"skip":true,"operators":[],"sort":false,"autofill":false}],
                 "meeting":[

@@ -1,14 +1,14 @@
 {
-    "author":"一图流",
-    "description":"这是个顶配243排班协议演示",
+    "author":"xiaomo",
+    "description":"肥鸭007-1班, 对象: 巫恋; 钱书主力全上",
     "id":1702203342688921,
-    "title":"243极限",
+    "title":"007-01",
     "buildingType":243,
-    "planTimes":"3班",
+    "planTimes":"1班",
     "plans":[
         {
-            "name":"第01班—巫鸭",
-            "description":"主力全上，肥鸭巫恋",
+            "name":"007-01班—巫恋",
+            "description":"肥鸭007巫恋, 主力全上",
             "Fiammetta":{
                 "enable":true,
                 "target":"巫恋",
@@ -33,7 +33,7 @@
                     {"skip":false,"operators":["格雷伊"],"sort":false,"autofill":false}],
                 "dormitory":[
                     {"skip":false,"operators":["Castle-3","白雪","霜叶","凛视","布丁"],"sort":true,"autofill":false},
-                    {"skip":false,"operators":["泡泡","火神","提丰","贝娜","空构"],"sort":true,"autofill":false},
+                    {"skip":false,"operators":["泡泡","火神","提丰","贝娜","海霓"],"sort":true,"autofill":false},
                     {"skip":false,"operators":["阿米娅","凯尔希","重岳","歌蕾蒂娅","焰影苇草"],"sort":true,"autofill":false},
                     {"skip":false,"operators":["菲亚梅塔","能天使","古米","卡夫卡","伊芙利特"],"sort":true,"autofill":false}],
                 "control":[

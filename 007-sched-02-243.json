@@ -1,14 +1,14 @@
 {
-    "author":"一图流",
-    "description":"这是个顶配243排班协议演示",
+    "author":"xiamo",
+    "description":"肥鸭007-2班, 对象: 龙舌兰; 无换班",
     "id":1702203342688921,
-    "title":"243极限",
+    "title":"007-2",
     "buildingType":243,
-    "planTimes":"3班",
+    "planTimes":"1班",
     "plans":[
         {
-            "name":"第02班—兰鸭",
-            "description":"仅肥鸭龙舌兰",
+            "name":"007-02班-龙舌兰",
+            "description":"肥鸭007龙舌兰, 休息材料组",
             "Fiammetta":{
                 "enable":true,
                 "target":"龙舌兰",
@@ -33,9 +33,9 @@
                     {"skip":true,"operators":[],"sort":false,"autofill":false}],
                 "dormitory":[
                     {"skip":false,"operators":["流明","白铁","九色鹿","泥岩","芳汀"],"sort":true,"autofill":false},
-                    {"skip":false,"operators":["杜林"],"sort":true,"autofill":false},
-                    {"skip":false,"operators":["冰酿","淬羽赫默"],"sort":true,"autofill":false},
-                    {"skip":false,"operators":["菲亚梅塔"],"sort":true,"autofill":false}],
+                    {"skip":true,"operators":[],"sort":true,"autofill":false},
+                    {"skip":true,"operators":[],"sort":true,"autofill":false},
+                    {"skip":false,"operators":["菲亚梅塔", "林"],"sort":true,"autofill":false}],
                 "control":[
                     {"skip":true,"operators":[],"sort":false,"autofill":false}],
                 "meeting":[

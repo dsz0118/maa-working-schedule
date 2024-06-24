@@ -41,7 +41,7 @@
                 "meeting":[
                     {"skip":true,"operators":[],"sort":false,"autofill":false}],
                 "hire":[
-                    {"skip":false,"operators":["林"],"sort":false,"autofill":false}],
+                    {"skip":false,"operators":["地灵"],"sort":false,"autofill":false}],
                 "processing":[
                     {"skip":true,"operators":[],"sort":false,"autofill":false}]}
         }

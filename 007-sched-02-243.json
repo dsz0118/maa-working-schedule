@@ -35,7 +35,7 @@
                     {"skip":false,"operators":["流明","白铁","九色鹿","泥岩","芳汀"],"sort":true,"autofill":false},
                     {"skip":true,"operators":[],"sort":true,"autofill":false},
                     {"skip":true,"operators":[],"sort":true,"autofill":false},
-                    {"skip":false,"operators":["菲亚梅塔", "地灵"],"sort":true,"autofill":false}],
+                    {"skip":false,"operators":["菲亚梅塔"],"sort":true,"autofill":false}],
                 "control":[
                     {"skip":true,"operators":[],"sort":false,"autofill":false}],
                 "meeting":[

@@ -1,14 +1,14 @@
 {
     "author":"xiamo",
-    "description":"钱书1班, 休息 槐琥/苍苔/斥罪 组",
+    "description":"钱书1班, 休息: 自动化/红云组/斥罪/发电站/裁缝组",
     "id":1702203342688921,
     "title":"BP-01",
     "buildingType":243,
     "planTimes":"1班",
     "plans":[
         {
-            "name":"BP-01-槐苍",
-            "description":"钱书休息槐琥/苍苔组 ",
+            "name":"BP-01-自动化/红云组",
+            "description":"休息: 自动化 + 红云组 + 斥罪 + 发电站 + 裁缝组",
             "Fiammetta":{
                 "enable":false,
                 "target":"",
@@ -20,24 +20,24 @@
                 "order":"pre"},
             "rooms":{
                 "trading":[
-                    {"skip":true,"product":"LMD","operators":[],"sort":false,"autofill":false},
+                    {"skip":false,"product":"LMD","operators":["巫恋","卡夫卡","龙舌兰"],"sort":false,"autofill":false},
                     {"skip":true,"product":"LMD","operators":[],"sort":false,"autofill":false}],
                 "manufacture":[
-                    {"skip":true,"product":"Battle Record","operators":[],"sort":false,"autofill":false},
-                    {"skip":false,"product":"Battle Record","operators":["Castle-3","白雪","霜叶"],"sort":true,"autofill":false},
-                    {"skip":true,"product":"Pure Gold","operators":[],"sort":false,"autofill":false},
-                    {"skip":false,"product":"Pure Gold","operators":["泡泡","火神","贝娜"],"sort":true,"autofill":false}],
+                    {"skip":false,"product":"Battle Record","operators":["霜叶","斯卡蒂","乌尔比安"],"sort":false,"autofill":false},
+                    {"skip":true,"product":"Battle Record","operators":[],"sort":true,"autofill":false},
+                    {"skip":false,"product":"Pure Gold","operators":["夜烟","幽灵鲨","安哲拉"],"sort":false,"autofill":false},
+                    {"skip":true,"product":"Pure Gold","operators":[],"sort":true,"autofill":false}],
                 "power":[
-                    {"skip":true,"operators":[],"sort":false,"autofill":false},
-                    {"skip":true,"operators":[],"sort":false,"autofill":false},
-                    {"skip":true,"operators":[],"sort":false,"autofill":false}],
+                    {"skip":false,"operators":["伊芙利特"],"sort":false,"autofill":false},
+                    {"skip":false,"operators":["布丁"],"sort":false,"autofill":false},
+                    {"skip":false,"operators":["海霓"],"sort":false,"autofill":false}],
                 "dormitory":[
-                    {"skip":false,"operators":["流明","断罪者","槐琥","至简","Lancet-2"],"sort":true,"autofill":false},
-                    {"skip":false,"operators":["杜林","苍苔","砾","斑点","车尔尼"],"sort":true,"autofill":false},
+                    {"skip":false,"operators":["流明","清流","温蒂","森蚺","柏喙"],"sort":true,"autofill":false},
+                    {"skip":false,"operators":["杜林","红云","稀音","圣约送葬人","炎狱炎熔"],"sort":true,"autofill":false},
                     {"skip":true,"operators":[],"sort":false,"autofill":false},
-                    {"skip":false,"operators":["菲亚梅塔","斥罪","琴柳"],"sort":true,"autofill":false}],
+                    {"skip":false,"operators":["菲亚梅塔","斥罪","澄闪","承曦格雷伊","格雷伊"],"sort":true,"autofill":false}],
                 "control":[
-                    {"skip":true,"operators":[],"sort":false,"autofill":false}],
+                    {"skip":false,"operators":["麒麟R夜刀","火龙S黑角","濯尘芙蓉","寒芒克洛丝","歌蕾蒂娅"],"sort":false,"autofill":false}],
                 "meeting":[
                     {"skip":true,"operators":[],"sort":false,"autofill":false}],
                 "hire":[

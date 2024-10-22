@@ -1,14 +1,14 @@
 {
     "author":"xiamo",
-    "description":"肥鸭007-2班, 对象: 龙舌兰; 无换班",
+    "description":"肥鸭007-2班, 续龙舌兰; 无换班",
     "id":1702203342688921,
-    "title":"007-2",
+    "title":"007-2-龙舌兰",
     "buildingType":243,
     "planTimes":"1班",
     "plans":[
         {
             "name":"007-02班-龙舌兰",
-            "description":"肥鸭007龙舌兰, 休息材料组",
+            "description":"肥鸭007龙舌兰, 休息材料组&先前来不及休息的换班组",
             "Fiammetta":{
                 "enable":true,
                 "target":"龙舌兰",
@@ -33,7 +33,7 @@
                     {"skip":true,"operators":[],"sort":false,"autofill":false}],
                 "dormitory":[
                     {"skip":false,"operators":["流明","白铁","九色鹿","泥岩","芳汀"],"sort":true,"autofill":false},
-                    {"skip":true,"operators":[],"sort":true,"autofill":false},
+                    {"skip":false,"operators":["冰酿","海霓","苍苔","断罪者"],"sort":true,"autofill":false},
                     {"skip":true,"operators":[],"sort":true,"autofill":false},
                     {"skip":false,"operators":["菲亚梅塔"],"sort":true,"autofill":false}],
                 "control":[

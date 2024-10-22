@@ -1,8 +1,8 @@
 {
     "author":"xiaomo",
-    "description":"肥鸭007-3班, 对象: 但书; 无换班",
+    "description":"肥鸭007-3班, 续但书; 无换班",
     "id":1702203342688921,
-    "title":"007-03",
+    "title":"007-03-但书",
     "buildingType":243,
     "planTimes":"1班",
     "plans":[
@@ -21,7 +21,7 @@
             "rooms":{
                 "trading":[
                     {"skip":true,"product":"LMD","operators":[],"sort":true,"autofill":false},
-                    {"skip":false,"product":"LMD","operators":["但书","泰拉大陆调查团","孑"],"sort":true,"autofill":false}],
+                    {"skip":false,"product":"LMD","operators":["但书","摩根","推进之王"],"sort":true,"autofill":false}],
                 "manufacture":[
                     {"skip":true,"product":"Battle Record","operators":[],"sort":false,"autofill":false},
                     {"skip":true,"product":"Battle Record","operators":[],"sort":false,"autofill":false},
@@ -32,8 +32,8 @@
                     {"skip":true,"operators":[],"sort":false,"autofill":false},
                     {"skip":true,"operators":[],"sort":false,"autofill":false}],
                 "dormitory":[
-                    {"skip":false,"operators":["流明","白铁","九色鹿","泥岩","芳汀"],"sort":true,"autofill":false},
-                    {"skip":true,"operators":[],"sort":true,"autofill":false},
+                    {"skip":false,"operators":["流明","白铁","泥岩","芳汀","琴柳"],"sort":true,"autofill":false},
+                    {"skip":false,"operators":["冰酿","九色鹿"],"sort":true,"autofill":false},
                     {"skip":true,"operators":[],"sort":true,"autofill":false},
                     {"skip":false,"operators":["菲亚梅塔"],"sort":true,"autofill":false}],
                 "control":[

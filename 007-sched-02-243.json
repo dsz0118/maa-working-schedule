@@ -8,7 +8,7 @@
     "plans":[
         {
             "name":"007-02班-龙舌兰",
-            "description":"肥鸭007龙舌兰, 休息材料组&先前来不及休息的换班组",
+            "description":"17:00, 肥鸭007龙舌兰, 休息材料组&先前来不及休息的换班组",
             "Fiammetta":{
                 "enable":true,
                 "target":"龙舌兰",
@@ -32,10 +32,10 @@
                     {"skip":true,"operators":[],"sort":false,"autofill":false},
                     {"skip":true,"operators":[],"sort":false,"autofill":false}],
                 "dormitory":[
-                    {"skip":false,"operators":["流明","白铁","九色鹿","泥岩","芳汀"],"sort":true,"autofill":false},
-                    {"skip":false,"operators":["冰酿","海霓","苍苔","断罪者"],"sort":true,"autofill":false},
+                    {"skip":false,"operators":["流明","白铁","泥岩","芳汀","琴柳"],"sort":true,"autofill":false},
+                    {"skip":false,"operators":["冰酿","九色鹿"],"sort":true,"autofill":false},
                     {"skip":true,"operators":[],"sort":true,"autofill":false},
-                    {"skip":false,"operators":["菲亚梅塔"],"sort":true,"autofill":false}],
+                    {"skip":false,"operators":["菲亚梅塔","海霓","苍苔","断罪者"],"sort":true,"autofill":false}],
                 "control":[
                     {"skip":true,"operators":[],"sort":false,"autofill":false}],
                 "meeting":[

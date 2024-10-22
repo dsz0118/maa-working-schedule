@@ -8,7 +8,7 @@
     "plans":[
         {
             "name":"007-03班-但书",
-            "description":"肥鸭007但书, 休息材料组",
+            "description":"01:00, 肥鸭007但书, 休息材料组",
             "Fiammetta":{
                 "enable":true,
                 "target":"但书",
@@ -32,8 +32,8 @@
                     {"skip":true,"operators":[],"sort":false,"autofill":false},
                     {"skip":true,"operators":[],"sort":false,"autofill":false}],
                 "dormitory":[
-                    {"skip":false,"operators":["流明","白铁","泥岩","芳汀","琴柳"],"sort":true,"autofill":false},
-                    {"skip":false,"operators":["冰酿","九色鹿"],"sort":true,"autofill":false},
+                    {"skip":true,"operators":[],"sort":true,"autofill":false},
+                    {"skip":true,"operators":[],"sort":true,"autofill":false},
                     {"skip":true,"operators":[],"sort":true,"autofill":false},
                     {"skip":false,"operators":["菲亚梅塔"],"sort":true,"autofill":false}],
                 "control":[

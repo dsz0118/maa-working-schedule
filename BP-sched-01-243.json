@@ -34,7 +34,7 @@
                 "dormitory":[
                     {"skip":false,"operators":["流明","砾","至简","槐琥","柏喙"],"sort":true,"autofill":false},
                     {"skip":false,"operators":["杜林","焰尾","薇薇安娜","远牙","灰毫"],"sort":true,"autofill":false},
-                    {"skip":true,"operators":[],"sort":false,"autofill":false},
+                    {"skip":false,"operators":["塞雷娅","多萝西","赫默","伊芙利特","星源"],"sort":false,"autofill":false},
                     {"skip":false,"operators":["菲亚梅塔","斥罪","野鬃","伊内丝","晓歌"],"sort":true,"autofill":false}],
                 "control":[
                     {"skip":false,"operators":["阿斯卡纶","凯尔希","戴菲恩","维什戴尔","歌蕾蒂娅"],"sort":false,"autofill":false}],

@@ -20,7 +20,7 @@
                 "order":"pre"},
             "rooms":{
                 "trading":[
-                    {"skip":false,"product":"LMD","operators":["巫恋","卡夫卡","龙舌兰"],"sort":false,"autofill":false},
+                    {"skip":false,"product":"LMD","operators":["巫恋","卡夫卡","龙舌兰"],"sort":true,"autofill":false},
                     {"skip":true,"product":"LMD","operators":[],"sort":false,"autofill":false}],
                 "manufacture":[
                     {"skip":false,"product":"Battle Record","operators":["断罪者","斯卡蒂","乌尔比安"],"sort":false,"autofill":false},

@@ -1,14 +1,14 @@
 {
     "author":"xiamo",
-    "description":"钱书-1班, 休息: 红松林/斥罪/会议室/裁缝组/槐琥组",
+    "description":"钱书-1班, 休息: 红松林/斥罪/会议室/裁缝组/苍苔组",
     "id":1702203342688921,
     "title":"BP-01",
     "buildingType":243,
     "planTimes":"1班",
     "plans":[
         {
-            "name":"BP-01-红松林/槐琥组",
-            "description":"01:45, 休息: 红松林/斥罪/会议室/裁缝组/槐琥组",
+            "name":"BP-01-红松林/苍苔组",
+            "description":"01:45, 休息: 红松林/斥罪/会议室/裁缝组/苍苔组",
             "Fiammetta":{
                 "enable":false,
                 "target":"",

@@ -1,14 +1,14 @@
 {
     "author":"xiamo",
-    "description":"钱书-2班, 休息 中枢/推王组/红云组/自动化/发电站",
+    "description":"钱书-2班, 休息 中枢/推王组/槐琥组/自动化/发电站",
     "id":1702203342688921,
     "title":"BP-02",
     "buildingType":243,
     "planTimes":"1班",
     "plans":[
         {
-            "name":"BP-02-红云组/自动化",
-            "description":"05:15, 休息 中枢/推王组/红云组/自动化/发电站",
+            "name":"BP-02-槐琥组/自动化",
+            "description":"05:15, 休息 中枢/推王组/槐琥组/自动化/发电站",
             "Fiammetta":{
                 "enable":false,
                 "target":"",

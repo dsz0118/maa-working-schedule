@@ -1,6 +1,6 @@
 {
     "author":"xiamo",
-    "description":"应急-2班, 休息: 中枢/槐琥组/红云组",
+    "description":"应急-2班, 休息: 中枢/槐琥组/苍苔组",
     "id":1702203342688921,
     "title":"EMER-02",
     "buildingType":243,
@@ -8,7 +8,7 @@
     "plans":[
         {
             "name":"EMER-02-小休",
-            "description":"13:30, 休息: 中枢/槐琥组/红云组",
+            "description":"13:30, 休息: 中枢/槐琥组/苍苔组",
             "Fiammetta":{
                 "enable":false,
                 "target":"",

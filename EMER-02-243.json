@@ -24,8 +24,8 @@
                     {"skip":false,"product":"LMD","operators":["但书","摩根","推进之王"],"sort":true,"autofill":false}],
                 "manufacture":[
                     {"skip":false,"product":"Battle Record","operators":["远牙","灰毫","野鬃"],"sort":false,"autofill":false},
-                    {"skip":false,"product":"Battle Record","operators":["断罪者","斯卡蒂","乌尔比安"],"sort":true,"autofill":false},
-                    {"skip":false,"product":"Pure Gold","operators":["苍苔","幽灵鲨","安哲拉"],"sort":false,"autofill":false},
+                    {"skip":false,"product":"Battle Record","operators":["食铁兽","斯卡蒂","乌尔比安"],"sort":true,"autofill":false},
+                    {"skip":false,"product":"Pure Gold","operators":["斑点","幽灵鲨","安哲拉"],"sort":false,"autofill":false},
                     {"skip":false,"product":"Pure Gold","operators":["清流","温蒂","森蚺"],"sort":true,"autofill":false}],
                 "power":[
                     {"skip":false,"operators":["格雷伊"],"sort":false,"autofill":false},
@@ -33,8 +33,8 @@
                     {"skip":false,"operators":["澄闪"],"sort":false,"autofill":false}],
                 "dormitory":[
                     {"skip":false,"operators":["阿斯卡纶","凯尔希","流明","提丰","凛视"],"sort":false,"autofill":false},
-                    {"skip":false,"operators":["杜林","砾","至简","槐琥","地灵"],"sort":false,"autofill":false},
-                    {"skip":false,"operators":["冰酿","红云","稀音","圣约送葬人","卡夫卡"],"sort":false,"autofill":false},
+                    {"skip":false,"operators":["杜林","砾","苍苔","引星棘刺","地灵"],"sort":false,"autofill":false},
+                    {"skip":false,"operators":["冰酿","断罪者","至简","槐琥","卡夫卡"],"sort":false,"autofill":false},
                     {"skip":false,"operators":["菲亚梅塔","麒麟R夜刀","火龙S黑角","寒芒克洛丝","维什戴尔"],"sort":true,"autofill":false}],
                 "control":[
                     {"skip":false,"operators":["玛恩纳","歌蕾蒂娅","薇薇安娜","焰尾","戴菲恩"],"sort":false,"autofill":false}],

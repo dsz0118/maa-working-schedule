@@ -24,7 +24,7 @@
                     {"skip":false,"product":"LMD","operators":["但书","摩根","推进之王"],"sort":true,"autofill":false}],
                 "manufacture":[
                     {"skip":true,"product":"Battle Record","operators":[],"sort":true,"autofill":false},
-                    {"skip":false,"product":"Battle Record","operators":["红云","稀音","圣约送葬人"],"sort":true,"autofill":false},
+                    {"skip":false,"product":"Battle Record","operators":["断罪者","槐琥","至简"],"sort":true,"autofill":false},
                     {"skip":true,"product":"Pure Gold","operators":[],"sort":true,"autofill":false},
                     {"skip":false,"product":"Pure Gold","operators":["清流","温蒂","森蚺"],"sort":true,"autofill":false}],
                 "power":[

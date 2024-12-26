@@ -24,8 +24,8 @@
                     {"skip":true,"product":"LMD","operators":[],"sort":false,"autofill":false}],
                 "manufacture":[
                     {"skip":true,"product":"Battle Record","operators":[],"sort":false,"autofill":false},
-                    {"skip":false,"product":"Battle Record","operators":["红云","稀音","圣约送葬人"],"sort":true,"autofill":false},
-                    {"skip":false,"product":"Pure Gold","operators":["砾","至简","槐琥"],"sort":false,"autofill":false},
+                    {"skip":false,"product":"Battle Record","operators":["断罪者","槐琥","至简"],"sort":true,"autofill":false},
+                    {"skip":false,"product":"Pure Gold","operators":["砾","苍苔","引星棘刺"],"sort":false,"autofill":false},
                     {"skip":true,"product":"Pure Gold","operators":[],"sort":false,"autofill":false}],
                 "power":[
                     {"skip":false,"operators":["缪尔赛思"],"sort":false,"autofill":false},
@@ -33,7 +33,7 @@
                     {"skip":true,"operators":[],"sort":false,"autofill":false}],
                 "dormitory":[
                     {"skip":false,"operators":["斯卡蒂","乌尔比安","幽灵鲨","安哲拉","歌蕾蒂娅"],"sort":false,"autofill":false},
-                    {"skip":false,"operators":["苍苔","断罪者","孑","银灰","泰拉大陆调查团"],"sort":false,"autofill":false},
+                    {"skip":false,"operators":["斑点","食铁兽","孑","银灰","泰拉大陆调查团"],"sort":false,"autofill":false},
                     {"skip":false,"operators":["塞雷娅","多萝西","赫默","伊芙利特","星源"],"sort":false,"autofill":false},
                     {"skip":false,"operators":["菲亚梅塔","海霓","格雷伊","地灵","玛恩纳"],"sort":true,"autofill":false}],
                 "control":[

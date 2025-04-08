@@ -1,0 +1,80 @@
+{
+    "author":"GitHub@dsz0118",
+    "description":"用于填补007肥鸭中龙门币/赤金/经验书的换班表",
+    "title":"BP-X-Groups",
+    "buildingType":243,
+    "plans":[
+        {
+            "name":"BP-01-红松林/苍苔组",
+            "description":"01:45, 休息: 红松林/斥罪/会议室/裁缝组/苍苔组",
+            "period": [
+                "01:00", "03:30"
+            ],
+            "rooms":{
+                "trading":[
+                    {"skip":false,"product":"LMD","operators":["巫恋","卡夫卡","龙舌兰"],"sort":true,"autofill":false},
+                    {"skip":true,"product":"LMD","operators":[],"sort":false,"autofill":false}],
+                "manufacture":[
+                    {"skip":false,"product":"Battle Record","operators":["食铁兽","斯卡蒂","乌尔比安"],"sort":false,"autofill":false},
+                    {"skip":true,"product":"Battle Record","operators":[],"sort":true,"autofill":false},
+                    {"skip":false,"product":"Pure Gold","operators":["斑点","幽灵鲨","安哲拉"],"sort":false,"autofill":false},
+                    {"skip":true,"product":"Pure Gold","operators":[],"sort":true,"autofill":false}],
+                "power":[
+                    {"skip":true,"operators":[],"sort":false,"autofill":false},
+                    {"skip":true,"operators":[],"sort":false,"autofill":false},
+                    {"skip":true,"operators":[],"sort":false,"autofill":false}],
+                "dormitory":[
+                    {"skip":false,"operators":["流明","砾","引星棘刺","苍苔","柏喙"],"sort":true,"autofill":false},
+                    {"skip":false,"operators":["杜林","焰尾","薇薇安娜","远牙","灰毫"],"sort":true,"autofill":false},
+                    {"skip":false,"operators":["塞雷娅","多萝西","赫默","伊芙利特","星源"],"sort":false,"autofill":false},
+                    {"skip":false,"operators":["菲亚梅塔","斥罪","野鬃","伊内丝","晓歌"],"sort":true,"autofill":false}],
+                "control":[
+                    {"skip":false,"operators":["阿斯卡纶","Mon3tr","戴菲恩","维什戴尔","歌蕾蒂娅"],"sort":false,"autofill":false}],
+                "meeting":[
+                    {"skip":false,"operators":["提丰","凛视"],"sort":false,"autofill":false}],
+                "hire":[
+                    {"skip":false,"operators":["地灵"],"sort":false,"autofill":false}],
+                "processing":[
+                    {"skip":true,"operators":[],"sort":false,"autofill":false}]}
+        },
+        {
+            "name":"BP-02-槐琥组/自动化",
+            "description":"05:15, 休息 中枢/推王组/槐琥组/自动化/发电站",
+            "period": [
+                "03:30", "09:00"
+            ],
+            "rooms":{
+                "trading":[
+                    {"skip":false,"product":"LMD","operators":["巫恋","柏喙","龙舌兰"],"sort":true,"autofill":false},
+                    {"skip":false,"product":"LMD","operators":["但书","孑","泰拉大陆调查团"],"sort":true,"autofill":false}],
+                "manufacture":[
+                    {"skip":false,"product":"Battle Record","operators":["远牙","灰毫","野鬃"],"sort":true,"autofill":false},
+                    {"skip":false,"product":"Battle Record","operators":["食铁兽","斯卡蒂","乌尔比安"],"sort":true,"autofill":false},
+                    {"skip":false,"product":"Pure Gold","operators":["砾","引星棘刺","苍苔"],"sort":true,"autofill":false},
+                    {"skip":false,"product":"Pure Gold","operators":["斑点","幽灵鲨","安哲拉"],"sort":true,"autofill":false}],
+                "power":[
+                    {"skip":false,"operators":["格雷伊"],"sort":false,"autofill":false},
+                    {"skip":false,"operators":["海霓"],"sort":false,"autofill":false},
+                    {"skip":false,"operators":["伊芙利特"],"sort":false,"autofill":false}],
+                "dormitory":[
+                    {"skip":false,"operators":["玛恩纳","阿斯卡纶","Mon3tr","戴菲恩","卡夫卡"],"sort":true,"autofill":false},
+                    {"skip":false,"operators":["杜林","清流","温蒂","森蚺","摩根"],"sort":true,"autofill":false},
+                    {"skip":false,"operators":["冰酿","断罪者","槐琥","至简","推进之王"],"sort":true,"autofill":false},
+                    {"skip":false,"operators":["菲亚梅塔","斥罪","缪尔赛思","承曦格雷伊","澄闪"],"sort":true,"autofill":false}],
+                "control":[
+                    {"skip":false,"operators":["麒麟R夜刀","火龙S黑角","薇薇安娜","焰尾","歌蕾蒂娅"],"sort":true,"autofill":false}],
+                "meeting":[
+                    {"skip":false,"operators":["伊内丝","晓歌"],"sort":true,"autofill":false}],
+                "hire":[
+                    {"skip":true,"operators":[],"sort":false,"autofill":false}],
+                "processing":[
+                    {"skip":true,"operators":[],"sort":false,"autofill":false}]}
+        }
+    ],
+    "scheduleType":{
+        "planTimes":2,
+        "trading":2,
+        "manufacture":4,
+        "power":3,
+        "dormitory":4}
+}

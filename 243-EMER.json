@@ -1,0 +1,94 @@
+{
+    "author":"GitHub@dsz0118",
+    "description":"当maa发生意外时, 使用的排班表",
+    "title":"EMER-X",
+    "buildingType":243,
+    "plans":[
+        {
+            "name":"EMER-01-09:00_13:00",
+            "description":"在13:00之前使用, 01:00, 01:45, 05:15, 09:00的换班中出现任何问题均可使用",
+            "period": [
+                "00:00", "13:15"
+            ],
+            "Fiammetta":{
+                "enable":true,
+                "target":"歌蕾蒂娅",
+                "order":"pre"},
+            "drones":{
+                "room":"trading",
+                "index":1,
+                "enable":true,
+                "order":"pre"},
+            "rooms":{
+                "trading":[
+                    {"skip":false,"product":"LMD","operators":["能天使","德克萨斯","拉普兰德"],"sort":true,"autofill":false},
+                    {"skip":false,"product":"LMD","operators":["银灰","孑","泰拉大陆调查团"],"sort":false,"autofill":false}],
+                "manufacture":[
+                    {"skip":false,"product":"Battle Record","operators":["食铁兽","斯卡蒂","乌尔比安"],"sort":false,"autofill":false},
+                    {"skip":true,"product":"Battle Record","operators":[],"sort":true,"autofill":false},
+                    {"skip":false,"product":"Pure Gold","operators":["斑点","幽灵鲨","安哲拉"],"sort":false,"autofill":false},
+                    {"skip":false, "product":"Pure Gold","operators":["泡泡","火神","贝娜"],"sort":true,"autofill":false}],
+                "power":[
+                    {"skip":false,"operators":["格雷伊"],"sort":false,"autofill":false},
+                    {"skip":false,"operators":["海霓"],"sort":false,"autofill":false},
+                    {"skip":false,"operators":["伊芙利特"],"sort":false,"autofill":false}],
+                "dormitory":[
+                    {"skip":false,"operators":["巫恋","龙舌兰","但书","清流","温蒂"],"sort":false,"autofill":false},
+                    {"skip":false,"operators":["薇薇安娜","焰尾","柏喙","远牙","灰毫"],"sort":false,"autofill":false},
+                    {"skip":false,"operators":["砾","引星棘刺","苍苔","野鬃","森蚺"],"sort":false,"autofill":false},
+                    {"skip":false,"operators":["菲亚梅塔","斥罪","澄闪","缪尔赛思","承曦格雷伊"],"sort":true,"autofill":false}],
+                "control":[
+                    {"skip":false,"operators":["麒麟R夜刀","火龙S黑角","寒芒克洛丝","濯尘芙蓉","歌蕾蒂娅"],"sort":false,"autofill":false}],
+                "meeting":[
+                    {"skip":false,"operators":["提丰","凛视"],"sort":false,"autofill":false}],
+                "hire":[
+                    {"skip":false,"operators":["地灵"],"sort":false,"autofill":false}],
+                "processing":[
+                    {"skip":true,"operators":[],"sort":false,"autofill":false}]}
+        },
+        {
+            "name":"EMER-02-17:00",
+            "description":"配合上一班使用, 在17:00时启动",
+            "period": [
+                "13:15", "23:55"
+            ],
+            "drones":{
+                "room":"trading",
+                "index":1,
+                "enable":true,
+                "order":"pre"},
+            "rooms":{
+                "trading":[
+                    {"skip":false,"product":"LMD","operators":["巫恋","柏喙","龙舌兰"],"sort":true,"autofill":false},
+                    {"skip":false,"product":"LMD","operators":["但书","孑","泰拉大陆调查团"],"sort":true,"autofill":false}],
+                "manufacture":[
+                    {"skip":false,"product":"Battle Record","operators":["远牙","灰毫","野鬃"],"sort":false,"autofill":false},
+                    {"skip":false,"product":"Battle Record","operators":["食铁兽","霜叶","Castle-3"],"sort":true,"autofill":false},
+                    {"skip":false,"product":"Pure Gold","operators":["砾","引星棘刺","苍苔"],"sort":false,"autofill":false},
+                    {"skip":false,"product":"Pure Gold","operators":["清流","温蒂","森蚺"],"sort":true,"autofill":false}],
+                "power":[
+                    {"skip":false,"operators":["格雷伊"],"sort":false,"autofill":false},
+                    {"skip":false,"operators":["承曦格雷伊"],"sort":false,"autofill":false},
+                    {"skip":false,"operators":["澄闪"],"sort":false,"autofill":false}],
+                "dormitory":[
+                    {"skip":false,"operators":["阿斯卡纶","Mon3tr","伊内丝","晓歌","戴菲恩"],"sort":false,"autofill":false},
+                    {"skip":false,"operators":["地灵","斯卡蒂","乌尔比安","幽灵鲨","安哲拉"],"sort":false,"autofill":false},
+                    {"skip":false,"operators":["断罪者","至简","槐琥","摩根","推进之王"],"sort":false,"autofill":false},
+                    {"skip":false,"operators":["菲亚梅塔","歌蕾蒂娅","泡泡","火神","贝娜"],"sort":true,"autofill":false}],
+                "control":[
+                    {"skip":false,"operators":["麒麟R夜刀","火龙S黑角","薇薇安娜","焰尾","玛恩纳"],"sort":false,"autofill":false}],
+                "meeting":[
+                    {"skip":true,"operators":[],"sort":false,"autofill":false}],
+                "hire":[
+                    {"skip":false,"operators":["斥罪"],"sort":false,"autofill":false}],
+                "processing":[
+                    {"skip":true,"operators":[],"sort":false,"autofill":false}]}
+        }
+    ],
+    "scheduleType":{
+        "planTimes":2,
+        "trading":2,
+        "manufacture":4,
+        "power":3,
+        "dormitory":4}
+}

@@ -31,8 +31,8 @@
                     {"skip":true,"operators":[],"sort":false,"autofill":false},
                     {"skip":true,"operators":[],"sort":false,"autofill":false}],
                 "dormitory":[
-                    {"skip":false,"operators":["流明","歌蕾蒂娅","乌尔比安","酒神","弑君者"],"sort":false,"autofill":false},
-                    {"skip":false,"operators":["杜林","灰毫","巫恋","但书","龙舌兰"],"sort":false,"autofill":false},
+                    {"skip":false,"operators":["流明","歌蕾蒂娅","巫恋","但书","龙舌兰"],"sort":false,"autofill":false},
+                    {"skip":false,"operators":["杜林","灰毫","乌尔比安","酒神","弑君者"],"sort":false,"autofill":false},
                     {"skip":false,"operators":["斯卡蒂","安哲拉","远牙","幽灵鲨","焰尾"],"sort":false,"autofill":false},
                     {"skip":false,"operators":["菲亚梅塔","Mon3tr","薇薇安娜","野鬃","缪尔赛思"],"sort":true,"autofill":false}],
                 "control":[
@@ -45,8 +45,8 @@
                     {"skip":true,"operators":[],"sort":false,"autofill":false}]}
         },
         {
-            "name":"SP-02班-main-work-3h48min",
-            "description":"Time.02:37 --- SP.02班, 先前已工作时间≈3h48min, 换班后可运行时间≈2h42min",
+            "name":"SP-02班-main-Fiammetta-work-3h48min",
+            "description":"Time.02:37 --- SP.02班, 先前已工作时间≈3h48min, 换班后可运行时间≈2h42min, 本班有特殊的肥鸭歌蒂接力",
             "period": [
                 ["00:44", "03:58"]
             ],

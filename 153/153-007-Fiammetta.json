@@ -1,0 +1,138 @@
+{
+    "author":"GitHub@dsz0118",
+    "description":"专门用于压榨肥鸭的换班表, 用来 007 核心歌蕾蒂娅",
+    "title":"007-Fiammetta-Gladiia",
+    "buildingType":153,
+    "plans":[
+        {
+            "name":"007-01班-歌蕾蒂娅-2h42min",
+            "description":"Time.05:19 --- 007.01班, 先前已工作时间≈2h42min, 换班后可运行时间≈4h15min",
+            "period": [
+                ["03:59", "07:26"]
+            ],
+            "Fiammetta":{
+                "enable":true,
+                "target":"歌蕾蒂娅",
+                "order":"pre"},
+            "rooms":{
+                "trading":[
+                    {"skip":true,"product":"LMD","operators":[],"sort":false,"autofill":false}
+                ],
+                "manufacture":[
+                    {"skip":true,"product":"Battle Record","operators":[],"sort":false,"autofill":false},
+                    {"skip":false,"product":"Battle Record","operators":["红云","稀音","圣约送葬人"],"sort":false,"autofill":false},
+                    {"skip":true,"product":"Battle Record","operators":[],"sort":false,"autofill":false},
+                    {"skip":true,"product":"Battle Record","operators":[],"sort":false,"autofill":false},
+                    {"skip":false,"product":"Pure Gold","operators":["砾","引星棘刺","苍苔"],"sort":false,"autofill":false}],
+                "power":[
+                    {"skip":true,"operators":[],"sort":false,"autofill":false},
+                    {"skip":false,"operators":["格雷伊"],"sort":false,"autofill":false},
+                    {"skip":false,"operators":["海霓"],"sort":false,"autofill":false}],
+                "dormitory":[
+                    {"skip":false,"operators":["流明","承曦格雷伊","澄闪","至简","麒麟R夜刀"],"sort":true,"autofill":false},
+                    {"skip":false,"operators":["冰酿","伊内丝","晓歌","断罪者","槐琥"],"sort":true,"autofill":false},
+                    {"skip":true,"operators":[],"sort":false,"autofill":false},
+                    {"skip":false,"operators":["菲亚梅塔","清流","温蒂","森蚺","阿米娅"],"sort":true,"autofill":false}],
+                "control":[
+                    {"skip":false,"operators":["阿斯卡纶","Mon3tr","薇薇安娜","焰尾","歌蕾蒂娅"],"sort":false,"autofill":false}],
+                "meeting":[
+                    {"skip":false,"operators":["提丰","凛视"],"sort":true,"autofill":false}],
+                "hire":[
+                    {"skip":true,"operators":[],"sort":false,"autofill":false}],
+                "processing":[
+                    {"skip":true,"operators":[],"sort":false,"autofill":false}]}
+        },
+        {
+            "name":"007-02班-歌蕾蒂娅-4h15min",
+            "description":"Time.09:34 --- 007.02班, 先前已工作时间≈4h15min, 换班后可运行时间≈6h36min, 无人机加速经验书",
+            "period": [
+                ["07:27", "12:52"]
+            ],
+            "Fiammetta":{
+                "enable":true,
+                "target":"歌蕾蒂娅",
+                "order":"pre"},
+            "drones":{
+                "room":"manufacture",
+                "index":1,
+                "enable":true,
+                "order":"pre"},
+            "rooms":{
+                "trading":[
+                    {"skip":true,"product":"LMD","operators":[],"sort":true,"autofill":false}
+                ],
+                "manufacture":[
+                    {"skip":true,"product":"Battle Record","operators":[],"sort":false,"autofill":false},
+                    {"skip":false,"product":"Battle Record","operators":["断罪者","槐琥","至简"],"sort":false,"autofill":false},
+                    {"skip":true,"product":"Battle Record","operators":[],"sort":false,"autofill":false},
+                    {"skip":true,"product":"Battle Record","operators":[],"sort":false,"autofill":false},
+                    {"skip":false,"product":"Pure Gold","operators":["清流","温蒂","森蚺"],"sort":false,"autofill":false}],
+                "power":[
+                    {"skip":true,"operators":[],"sort":false,"autofill":false},
+                    {"skip":false,"operators":["承曦格雷伊"],"sort":false,"autofill":false},
+                    {"skip":false,"operators":["澄闪"],"sort":false,"autofill":false}],
+                "dormitory":[
+                    {"skip":false,"operators":["流明","白铁","年","芳汀","九色鹿"],"sort":true,"autofill":false},
+                    {"skip":false,"operators":["冰酿","提丰","凛视","格雷伊","海霓"],"sort":true,"autofill":false},
+                    {"skip":true,"operators":[],"sort":false,"autofill":false},
+                    {"skip":false,"operators":["菲亚梅塔","斥罪","阿斯卡纶","瑕光","号角"],"sort":true,"autofill":false}],
+                "control":[
+                    {"skip":false,"operators":["阿米娅","Mon3tr","薇薇安娜","焰尾","歌蕾蒂娅"],"sort":false,"autofill":false}],
+                "meeting":[
+                    {"skip":false,"operators":["伊内丝","晓歌"],"sort":true,"autofill":false}],
+                "hire":[
+                    {"skip":false,"operators":["地灵"],"sort":false,"autofill":false}],
+                "processing":[
+                    {"skip":true,"operators":[],"sort":false,"autofill":false}]}
+        },
+        {
+            "name":"007-03班-歌蕾蒂娅-6h36min",
+            "description":"Time.16:10 --- 007.03班, 先前已工作时间≈6h36min, 换班后可运行时间≈6h39min, 无人机加速经验书",
+            "period": [
+                ["12:53", "19:29"]
+            ],
+            "Fiammetta":{
+                "enable":true,
+                "target":"歌蕾蒂娅",
+                "order":"pre"},
+            "drones":{
+                "room":"manufacture",
+                "index":1,
+                "enable":true,
+                "order":"pre"},
+            "rooms":{
+                "trading":[
+                    {"skip":true,"product":"LMD","operators":[],"sort":true,"autofill":false}
+                ],
+                "manufacture":[
+                    {"skip":true,"product":"Battle Record","operators":[],"sort":false,"autofill":false},
+                    {"skip":true,"product":"Battle Record","operators":[],"sort":false,"autofill":false},
+                    {"skip":true,"product":"Battle Record","operators":[],"sort":false,"autofill":false},
+                    {"skip":true,"product":"Battle Record","operators":[],"sort":false,"autofill":false},
+                    {"skip":true,"product":"Pure Gold","operators":[],"sort":false,"autofill":false}],
+                "power":[
+                    {"skip":true,"operators":[],"sort":false,"autofill":false},
+                    {"skip":true,"operators":[],"sort":false,"autofill":false},
+                    {"skip":true,"operators":[],"sort":false,"autofill":false}],
+                "dormitory":[
+                    {"skip":false,"operators":["流明","白铁","年","芳汀","九色鹿"],"sort":true,"autofill":false},
+                    {"skip":false,"operators":["冰酿","孑","摩根","推进之王","瑕光"],"sort":true,"autofill":false},
+                    {"skip":true,"operators":[],"sort":false,"autofill":false},
+                    {"skip":false,"operators":["菲亚梅塔","地灵","红云","稀音","圣约送葬人"],"sort":true,"autofill":false}],
+                "control":[
+                    {"skip":false,"operators":["阿米娅","Mon3tr","薇薇安娜","焰尾","歌蕾蒂娅"],"sort":false,"autofill":false}],
+                "meeting":[
+                    {"skip":true,"operators":[],"sort":true,"autofill":false}],
+                "hire":[
+                    {"skip":false,"operators":["斥罪"],"sort":false,"autofill":false}],
+                "processing":[
+                    {"skip":true,"operators":[],"sort":false,"autofill":false}]}
+        }
+    ],
+    "scheduleType":{
+        "planTimes":3,
+        "trading":1,
+        "manufacture":5,
+        "power":3,
+        "dormitory":4}
+}

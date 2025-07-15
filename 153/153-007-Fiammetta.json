@@ -32,9 +32,9 @@
                     {"skip":false,"operators":["流明","承曦格雷伊","澄闪","至简","但书"],"sort":false,"autofill":false},
                     {"skip":false,"operators":["冰酿","伊内丝","晓歌","断罪者","槐琥"],"sort":false,"autofill":false},
                     {"skip":true,"operators":[],"sort":false,"autofill":false},
-                    {"skip":false,"operators":["菲亚梅塔","清流","温蒂","森蚺","阿米娅"],"sort":true,"autofill":false}],
+                    {"skip":false,"operators":["菲亚梅塔","清流","温蒂","森蚺","年"],"sort":true,"autofill":false}],
                 "control":[
-                    {"skip":false,"operators":["阿斯卡纶","Mon3tr","薇薇安娜","焰尾","歌蕾蒂娅"],"sort":false,"autofill":false}],
+                    {"skip":false,"operators":["阿米娅","Mon3tr","薇薇安娜","焰尾","歌蕾蒂娅"],"sort":false,"autofill":false}],
                 "meeting":[
                     {"skip":false,"operators":["提丰","凛视"],"sort":true,"autofill":false}],
                 "hire":[
@@ -75,7 +75,7 @@
                     {"skip":false,"operators":["流明","白铁","年","芳汀","九色鹿"],"sort":false,"autofill":false},
                     {"skip":false,"operators":["冰酿","提丰","凛视","格雷伊","海霓"],"sort":false,"autofill":false},
                     {"skip":true,"operators":[],"sort":false,"autofill":false},
-                    {"skip":false,"operators":["菲亚梅塔","斥罪","阿斯卡纶","柏喙","麒麟R夜刀"],"sort":true,"autofill":false}],
+                    {"skip":false,"operators":["菲亚梅塔","斥罪","瑕光","柏喙","麒麟R夜刀"],"sort":true,"autofill":false}],
                 "control":[
                     {"skip":false,"operators":["阿米娅","Mon3tr","薇薇安娜","焰尾","歌蕾蒂娅"],"sort":false,"autofill":false}],
                 "meeting":[

@@ -31,7 +31,7 @@
                     {"skip":true,"operators":[],"sort":false,"autofill":false},
                     {"skip":true,"operators":[],"sort":false,"autofill":false}],
                 "dormitory":[
-                    {"skip":false,"operators":["流明","歌蕾蒂娅","巫恋","但书","龙舌兰"],"sort":false,"autofill":false},
+                    {"skip":false,"operators":["流明","歌蕾蒂娅","巫恋","阿米娅","龙舌兰"],"sort":false,"autofill":false},
                     {"skip":false,"operators":["杜林","灰毫","乌尔比安","酒神","弑君者"],"sort":false,"autofill":false},
                     {"skip":false,"operators":["斯卡蒂","安哲拉","远牙","幽灵鲨","焰尾"],"sort":false,"autofill":false},
                     {"skip":false,"operators":["菲亚梅塔","Mon3tr","薇薇安娜","野鬃","缪尔赛思"],"sort":true,"autofill":false}],

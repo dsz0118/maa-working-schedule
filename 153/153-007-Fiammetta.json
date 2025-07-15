@@ -16,7 +16,7 @@
                 "order":"pre"},
             "rooms":{
                 "trading":[
-                    {"skip":true,"product":"LMD","operators":[],"sort":false,"autofill":false}
+                    {"skip":false,"product":"LMD","operators":["巫恋","柏喙","龙舌兰"],"sort":true,"autofill":false}
                 ],
                 "manufacture":[
                     {"skip":true,"product":"Battle Record","operators":[],"sort":false,"autofill":false},
@@ -29,8 +29,8 @@
                     {"skip":false,"operators":["格雷伊"],"sort":false,"autofill":false},
                     {"skip":false,"operators":["海霓"],"sort":false,"autofill":false}],
                 "dormitory":[
-                    {"skip":false,"operators":["流明","承曦格雷伊","澄闪","至简","麒麟R夜刀"],"sort":true,"autofill":false},
-                    {"skip":false,"operators":["冰酿","伊内丝","晓歌","断罪者","槐琥"],"sort":true,"autofill":false},
+                    {"skip":false,"operators":["流明","承曦格雷伊","澄闪","至简","但书"],"sort":false,"autofill":false},
+                    {"skip":false,"operators":["冰酿","伊内丝","晓歌","断罪者","槐琥"],"sort":false,"autofill":false},
                     {"skip":true,"operators":[],"sort":false,"autofill":false},
                     {"skip":false,"operators":["菲亚梅塔","清流","温蒂","森蚺","阿米娅"],"sort":true,"autofill":false}],
                 "control":[
@@ -59,7 +59,7 @@
                 "order":"pre"},
             "rooms":{
                 "trading":[
-                    {"skip":true,"product":"LMD","operators":[],"sort":true,"autofill":false}
+                    {"skip":false,"product":"LMD","operators":["巫恋","但书","龙舌兰"],"sort":true,"autofill":false}
                 ],
                 "manufacture":[
                     {"skip":true,"product":"Battle Record","operators":[],"sort":false,"autofill":false},
@@ -72,10 +72,10 @@
                     {"skip":false,"operators":["承曦格雷伊"],"sort":false,"autofill":false},
                     {"skip":false,"operators":["澄闪"],"sort":false,"autofill":false}],
                 "dormitory":[
-                    {"skip":false,"operators":["流明","白铁","年","芳汀","九色鹿"],"sort":true,"autofill":false},
-                    {"skip":false,"operators":["冰酿","提丰","凛视","格雷伊","海霓"],"sort":true,"autofill":false},
+                    {"skip":false,"operators":["流明","白铁","年","芳汀","九色鹿"],"sort":false,"autofill":false},
+                    {"skip":false,"operators":["冰酿","提丰","凛视","格雷伊","海霓"],"sort":false,"autofill":false},
                     {"skip":true,"operators":[],"sort":false,"autofill":false},
-                    {"skip":false,"operators":["菲亚梅塔","斥罪","阿斯卡纶","瑕光","号角"],"sort":true,"autofill":false}],
+                    {"skip":false,"operators":["菲亚梅塔","斥罪","阿斯卡纶","柏喙","麒麟R夜刀"],"sort":true,"autofill":false}],
                 "control":[
                     {"skip":false,"operators":["阿米娅","Mon3tr","薇薇安娜","焰尾","歌蕾蒂娅"],"sort":false,"autofill":false}],
                 "meeting":[
@@ -115,8 +115,8 @@
                     {"skip":true,"operators":[],"sort":false,"autofill":false},
                     {"skip":true,"operators":[],"sort":false,"autofill":false}],
                 "dormitory":[
-                    {"skip":false,"operators":["流明","白铁","年","芳汀","九色鹿"],"sort":true,"autofill":false},
-                    {"skip":false,"operators":["冰酿","孑","摩根","推进之王","瑕光"],"sort":true,"autofill":false},
+                    {"skip":false,"operators":["流明","白铁","年","芳汀","九色鹿"],"sort":false,"autofill":false},
+                    {"skip":false,"operators":["冰酿","孑","摩根","推进之王","瑕光"],"sort":false,"autofill":false},
                     {"skip":true,"operators":[],"sort":false,"autofill":false},
                     {"skip":false,"operators":["菲亚梅塔","地灵","红云","稀音","圣约送葬人"],"sort":true,"autofill":false}],
                 "control":[

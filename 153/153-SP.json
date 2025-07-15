@@ -69,8 +69,8 @@
                     {"skip":true,"operators":[],"sort":false,"autofill":false},
                     {"skip":true,"operators":[],"sort":false,"autofill":false}],
                 "dormitory":[
-                    {"skip":false,"operators":["火神","红豆","白雪","霜叶","泡泡"],"sort":true,"autofill":false},
-                    {"skip":false,"operators":["冰酿","贝娜","火龙S黑角","魔王","维什戴尔"],"sort":true,"autofill":false},
+                    {"skip":false,"operators":["火神","红豆","白雪","霜叶","泡泡"],"sort":false,"autofill":false},
+                    {"skip":false,"operators":["冰酿","贝娜","火龙S黑角","魔王","维什戴尔"],"sort":false,"autofill":false},
                     {"skip":false,"operators":["塞雷娅","多萝西","赫默","伊芙利特","星源"],"sort":false,"autofill":false},
                     {"skip":false,"operators":["菲亚梅塔","砾","引星棘刺","苍苔","戴菲恩"],"sort":true,"autofill":false}],
                 "control":[

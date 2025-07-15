@@ -116,7 +116,7 @@
                     {"skip":true,"operators":[],"sort":false,"autofill":false}],
                 "dormitory":[
                     {"skip":false,"operators":["流明","白铁","年","芳汀","九色鹿"],"sort":false,"autofill":false},
-                    {"skip":false,"operators":["冰酿","孑","摩根","推进之王","瑕光"],"sort":false,"autofill":false},
+                    {"skip":false,"operators":["冰酿","号角","摩根","推进之王","瑕光"],"sort":false,"autofill":false},
                     {"skip":true,"operators":[],"sort":false,"autofill":false},
                     {"skip":false,"operators":["菲亚梅塔","地灵","红云","稀音","圣约送葬人"],"sort":true,"autofill":false}],
                 "control":[

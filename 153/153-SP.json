@@ -18,7 +18,7 @@
                 "order":"pre"},
             "rooms":{
                 "trading":[
-                    {"skip":false,"product":"LMD","operators":["孑","摩根","推进之王"],"sort":false,"autofill":false}
+                    {"skip":false,"product":"LMD","operators":["但书","摩根","推进之王"],"sort":false,"autofill":false}
                 ],
                 "manufacture":[
                     {"skip":false,"product":"Battle Record","operators":["红豆","白雪","霜叶"],"sort":false,"autofill":false},

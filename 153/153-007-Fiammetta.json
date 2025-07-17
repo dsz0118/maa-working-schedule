@@ -59,7 +59,7 @@
                 "order":"pre"},
             "rooms":{
                 "trading":[
-                    {"skip":false,"product":"LMD","operators":["巫恋","但书","龙舌兰"],"sort":true,"autofill":false}
+                    {"skip":false,"product":"LMD","operators":["但书","巫恋","龙舌兰"],"sort":true,"autofill":false}
                 ],
                 "manufacture":[
                     {"skip":true,"product":"Battle Record","operators":[],"sort":false,"autofill":false},
@@ -102,7 +102,7 @@
                 "order":"pre"},
             "rooms":{
                 "trading":[
-                    {"skip":true,"product":"LMD","operators":[],"sort":true,"autofill":false}
+                    {"skip":false,"product":"LMD","operators":["龙舌兰","但书","巫恋"],"sort":true,"autofill":false}
                 ],
                 "manufacture":[
                     {"skip":true,"product":"Battle Record","operators":[],"sort":false,"autofill":false},

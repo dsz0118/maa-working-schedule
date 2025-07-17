@@ -6,14 +6,14 @@
     "plans":[
         {
             "name":"SP-01班-main-rest-6h39min",
-            "description":"Time.22:49 --- SP.01班, 先前已工作时间≈6h39min, 换班后可运行时间≈3h48min, 无人机加速赤金",
+            "description":"Time.22:49 --- SP.01班, 先前已工作时间≈6h39min, 换班后可运行时间≈3h48min, 无人机加速贸易",
             "period": [
                 ["19:30", "23:59"],
                 ["00:00", "00:43"]
             ],
             "drones":{
-                "room":"manufacture",
-                "index":5,
+                "room":"trading",
+                "index":1,
                 "enable":true,
                 "order":"pre"},
             "rooms":{

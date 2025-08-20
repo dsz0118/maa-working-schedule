@@ -5,8 +5,8 @@
     "buildingType":153,
     "plans":[
         {
-            "name":"007-01班-歌蕾蒂娅-2h42min",
-            "description":"Time.05:19 --- 007.01班, 先前已工作时间≈2h42min, 换班后可运行时间≈4h15min",
+            "name":"007-01班-Fiammetta",
+            "description":"Time.05:12 --- 007.01班, 先前已工作时间≈2h42min, 换班后可运行时间≈4h15min",
             "period": [
                 ["03:59", "07:26"]
             ],
@@ -19,32 +19,32 @@
                     {"skip":false,"product":"LMD","operators":["巫恋","柏喙","龙舌兰"],"sort":true,"autofill":false}
                 ],
                 "manufacture":[
-                    {"skip":true,"product":"Battle Record","operators":[],"sort":false,"autofill":false},
+                    {"skip":false,"product":"Battle Record","operators":["远牙","灰毫","野鬃"],"sort":false,"autofill":false},
                     {"skip":false,"product":"Battle Record","operators":["红云","稀音","圣约送葬人"],"sort":false,"autofill":false},
-                    {"skip":true,"product":"Battle Record","operators":[],"sort":false,"autofill":false},
-                    {"skip":true,"product":"Battle Record","operators":[],"sort":false,"autofill":false},
+                    {"skip":false,"product":"Battle Record","operators":["酒神","斯卡蒂","乌尔比安"],"sort":false,"autofill":false},
+                    {"skip":false,"product":"Battle Record","operators":["弑君者","幽灵鲨","安哲拉"],"sort":false,"autofill":false},
                     {"skip":false,"product":"Pure Gold","operators":["砾","引星棘刺","苍苔"],"sort":false,"autofill":false}],
                 "power":[
-                    {"skip":true,"operators":[],"sort":false,"autofill":false},
+                    {"skip":false,"operators":["缪尔赛思"],"sort":false,"autofill":false},
                     {"skip":false,"operators":["格雷伊"],"sort":false,"autofill":false},
                     {"skip":false,"operators":["海霓"],"sort":false,"autofill":false}],
                 "dormitory":[
                     {"skip":false,"operators":["流明","承曦格雷伊","澄闪","至简","但书"],"sort":false,"autofill":false},
                     {"skip":false,"operators":["冰酿","伊内丝","晓歌","断罪者","槐琥"],"sort":false,"autofill":false},
-                    {"skip":true,"operators":[],"sort":false,"autofill":false},
+                    {"skip":false,"operators":["白面鸮","多萝西","赫默","伊芙利特","梅尔"],"sort":false,"autofill":false},
                     {"skip":false,"operators":["菲亚梅塔","清流","温蒂","森蚺","年"],"sort":true,"autofill":false}],
                 "control":[
-                    {"skip":false,"operators":["阿米娅","Mon3tr","薇薇安娜","焰尾","歌蕾蒂娅"],"sort":false,"autofill":false}],
+                    {"skip":false,"operators":["诗怀雅","斩业星熊","薇薇安娜","焰尾","歌蕾蒂娅"],"sort":false,"autofill":false}],
                 "meeting":[
                     {"skip":false,"operators":["提丰","凛视"],"sort":true,"autofill":false}],
                 "hire":[
-                    {"skip":true,"operators":[],"sort":false,"autofill":false}],
+                    {"skip":false,"operators":["斥罪"],"sort":false,"autofill":false}],
                 "processing":[
                     {"skip":true,"operators":[],"sort":false,"autofill":false}]}
         },
         {
-            "name":"007-02班-歌蕾蒂娅-4h15min",
-            "description":"Time.09:34 --- 007.02班, 先前已工作时间≈4h15min, 换班后可运行时间≈6h36min, 无人机加速经验书",
+            "name":"007-02班-Fiammetta",
+            "description":"Time.09:27 --- 007.02班, 先前已工作时间≈4h15min, 换班后可运行时间≈6h39min, 无人机加速经验书",
             "period": [
                 ["07:27", "12:52"]
             ],
@@ -62,32 +62,32 @@
                     {"skip":false,"product":"LMD","operators":["但书","巫恋","龙舌兰"],"sort":true,"autofill":false}
                 ],
                 "manufacture":[
-                    {"skip":true,"product":"Battle Record","operators":[],"sort":false,"autofill":false},
+                    {"skip":false,"product":"Battle Record","operators":["远牙","灰毫","野鬃"],"sort":false,"autofill":false},
                     {"skip":false,"product":"Battle Record","operators":["断罪者","槐琥","至简"],"sort":false,"autofill":false},
-                    {"skip":true,"product":"Battle Record","operators":[],"sort":false,"autofill":false},
-                    {"skip":true,"product":"Battle Record","operators":[],"sort":false,"autofill":false},
+                    {"skip":false,"product":"Battle Record","operators":["酒神","斯卡蒂","乌尔比安"],"sort":false,"autofill":false},
+                    {"skip":false,"product":"Battle Record","operators":["弑君者","幽灵鲨","安哲拉"],"sort":false,"autofill":false},
                     {"skip":false,"product":"Pure Gold","operators":["清流","温蒂","森蚺"],"sort":false,"autofill":false}],
                 "power":[
-                    {"skip":true,"operators":[],"sort":false,"autofill":false},
+                    {"skip":false,"operators":["缪尔赛思"],"sort":false,"autofill":false},
                     {"skip":false,"operators":["承曦格雷伊"],"sort":false,"autofill":false},
                     {"skip":false,"operators":["澄闪"],"sort":false,"autofill":false}],
                 "dormitory":[
                     {"skip":false,"operators":["流明","白铁","年","芳汀","九色鹿"],"sort":false,"autofill":false},
                     {"skip":false,"operators":["冰酿","提丰","凛视","格雷伊","海霓"],"sort":false,"autofill":false},
-                    {"skip":true,"operators":[],"sort":false,"autofill":false},
-                    {"skip":false,"operators":["菲亚梅塔","斥罪","瑕光","柏喙","麒麟R夜刀"],"sort":true,"autofill":false}],
+                    {"skip":false,"operators":["白面鸮","多萝西","赫默","伊芙利特","梅尔"],"sort":false,"autofill":false},
+                    {"skip":false,"operators":["菲亚梅塔","斥罪","柏喙","泥岩","休谟斯"],"sort":true,"autofill":false}],
                 "control":[
-                    {"skip":false,"operators":["阿米娅","Mon3tr","薇薇安娜","焰尾","歌蕾蒂娅"],"sort":false,"autofill":false}],
+                    {"skip":false,"operators":["诗怀雅","斩业星熊","薇薇安娜","焰尾","歌蕾蒂娅"],"sort":false,"autofill":false}],
                 "meeting":[
                     {"skip":false,"operators":["伊内丝","晓歌"],"sort":true,"autofill":false}],
                 "hire":[
-                    {"skip":false,"operators":["地灵"],"sort":false,"autofill":false}],
+                    {"skip":false,"operators":["遥"],"sort":false,"autofill":false}],
                 "processing":[
                     {"skip":true,"operators":[],"sort":false,"autofill":false}]}
         },
         {
-            "name":"007-03班-歌蕾蒂娅-6h36min",
-            "description":"Time.16:10 --- 007.03班, 先前已工作时间≈6h36min, 换班后可运行时间≈6h39min, 无人机加速经验书",
+            "name":"007-03班-Fiammetta",
+            "description":"Time.16:10 --- 007.03班, 先前已工作时间≈6h39min, 换班后可运行时间≈6h44min, 无人机加速经验书",
             "period": [
                 ["12:53", "19:29"]
             ],
@@ -105,24 +105,24 @@
                     {"skip":false,"product":"LMD","operators":["龙舌兰","但书","巫恋"],"sort":true,"autofill":false}
                 ],
                 "manufacture":[
-                    {"skip":true,"product":"Battle Record","operators":[],"sort":false,"autofill":false},
-                    {"skip":true,"product":"Battle Record","operators":[],"sort":false,"autofill":false},
-                    {"skip":true,"product":"Battle Record","operators":[],"sort":false,"autofill":false},
-                    {"skip":true,"product":"Battle Record","operators":[],"sort":false,"autofill":false},
-                    {"skip":true,"product":"Pure Gold","operators":[],"sort":false,"autofill":false}],
+                    {"skip":false,"product":"Battle Record","operators":["远牙","灰毫","野鬃"],"sort":false,"autofill":false},
+                    {"skip":false,"product":"Battle Record","operators":["断罪者","槐琥","至简"],"sort":false,"autofill":false},
+                    {"skip":false,"product":"Battle Record","operators":["酒神","斯卡蒂","乌尔比安"],"sort":false,"autofill":false},
+                    {"skip":false,"product":"Battle Record","operators":["弑君者","幽灵鲨","安哲拉"],"sort":false,"autofill":false},
+                    {"skip":false,"product":"Pure Gold","operators":["清流","温蒂","森蚺"],"sort":false,"autofill":false}],
                 "power":[
-                    {"skip":true,"operators":[],"sort":false,"autofill":false},
-                    {"skip":true,"operators":[],"sort":false,"autofill":false},
-                    {"skip":true,"operators":[],"sort":false,"autofill":false}],
+                    {"skip":false,"operators":["缪尔赛思"],"sort":false,"autofill":false},
+                    {"skip":false,"operators":["承曦格雷伊"],"sort":false,"autofill":false},
+                    {"skip":false,"operators":["澄闪"],"sort":false,"autofill":false}],
                 "dormitory":[
                     {"skip":false,"operators":["流明","白铁","年","芳汀","九色鹿"],"sort":false,"autofill":false},
-                    {"skip":false,"operators":["冰酿","号角","摩根","推进之王","瑕光"],"sort":false,"autofill":false},
-                    {"skip":true,"operators":[],"sort":false,"autofill":false},
-                    {"skip":false,"operators":["菲亚梅塔","地灵","红云","稀音","圣约送葬人"],"sort":true,"autofill":false}],
+                    {"skip":false,"operators":["冰酿","摩根","推进之王","",""],"sort":false,"autofill":false},
+                    {"skip":false,"operators":["白面鸮","多萝西","赫默","伊芙利特","梅尔"],"sort":false,"autofill":false},
+                    {"skip":false,"operators":["菲亚梅塔","遥","红云","稀音","圣约送葬人"],"sort":true,"autofill":false}],
                 "control":[
-                    {"skip":false,"operators":["阿米娅","Mon3tr","薇薇安娜","焰尾","歌蕾蒂娅"],"sort":false,"autofill":false}],
+                    {"skip":false,"operators":["诗怀雅","斩业星熊","薇薇安娜","焰尾","歌蕾蒂娅"],"sort":false,"autofill":false}],
                 "meeting":[
-                    {"skip":true,"operators":[],"sort":true,"autofill":false}],
+                    {"skip":false,"operators":["伊内丝","晓歌"],"sort":true,"autofill":false}],
                 "hire":[
                     {"skip":false,"operators":["斥罪"],"sort":false,"autofill":false}],
                 "processing":[

@@ -21,10 +21,10 @@
                 "order":"pre"},
             "rooms":{
                 "trading":[
-                    {"skip":false,"product":"LMD","operators":["能天使","德克萨斯","拉普兰德"],"sort":true,"autofill":false},
+                    {"skip":false,"product":"LMD","operators":["能天使","蕾缪安","空"],"sort":true,"autofill":false},
                     {"skip":false,"product":"LMD","operators":["银灰","孑","泰拉大陆调查团"],"sort":false,"autofill":false}],
                 "manufacture":[
-                    {"skip":false,"product":"Battle Record","operators":["食铁兽","斯卡蒂","乌尔比安"],"sort":false,"autofill":false},
+                    {"skip":false,"product":"Battle Record","operators":["酒神","斯卡蒂","乌尔比安"],"sort":false,"autofill":false},
                     {"skip":false,"product":"Battle Record","operators":["断罪者","槐琥","至简"],"sort":true,"autofill":false},
                     {"skip":false,"product":"Pure Gold","operators":["斑点","幽灵鲨","安哲拉"],"sort":false,"autofill":false},
                     {"skip":false, "product":"Pure Gold","operators":["泡泡","火神","贝娜"],"sort":true,"autofill":false}],
@@ -42,7 +42,7 @@
                 "meeting":[
                     {"skip":false,"operators":["提丰","凛视"],"sort":false,"autofill":false}],
                 "hire":[
-                    {"skip":false,"operators":["林"],"sort":false,"autofill":false}],
+                    {"skip":false,"operators":["遥"],"sort":false,"autofill":false}],
                 "processing":[
                     {"skip":true,"operators":[],"sort":false,"autofill":false}]}
         },
@@ -63,7 +63,7 @@
                     {"skip":false,"product":"LMD","operators":["但书","孑","泰拉大陆调查团"],"sort":true,"autofill":false}],
                 "manufacture":[
                     {"skip":false,"product":"Battle Record","operators":["远牙","灰毫","野鬃"],"sort":false,"autofill":false},
-                    {"skip":false,"product":"Battle Record","operators":["食铁兽","霜叶","Castle-3"],"sort":true,"autofill":false},
+                    {"skip":false,"product":"Battle Record","operators":["酒神","霜叶","Castle-3"],"sort":true,"autofill":false},
                     {"skip":false,"product":"Pure Gold","operators":["砾","引星棘刺","苍苔"],"sort":false,"autofill":false},
                     {"skip":false,"product":"Pure Gold","operators":["清流","温蒂","森蚺"],"sort":true,"autofill":false}],
                 "power":[
@@ -71,8 +71,8 @@
                     {"skip":false,"operators":["承曦格雷伊"],"sort":false,"autofill":false},
                     {"skip":false,"operators":["澄闪"],"sort":false,"autofill":false}],
                 "dormitory":[
-                    {"skip":false,"operators":["阿斯卡纶","Mon3tr","伊内丝","晓歌","戴菲恩"],"sort":false,"autofill":false},
-                    {"skip":false,"operators":["地灵","斯卡蒂","乌尔比安","幽灵鲨","安哲拉"],"sort":false,"autofill":false},
+                    {"skip":false,"operators":["诗怀雅","斩业星熊","伊内丝","晓歌","戴菲恩"],"sort":false,"autofill":false},
+                    {"skip":false,"operators":["遥","斯卡蒂","乌尔比安","幽灵鲨","安哲拉"],"sort":false,"autofill":false},
                     {"skip":false,"operators":["断罪者","至简","槐琥","摩根","推进之王"],"sort":false,"autofill":false},
                     {"skip":false,"operators":["菲亚梅塔","歌蕾蒂娅","泡泡","火神","贝娜"],"sort":true,"autofill":false}],
                 "control":[

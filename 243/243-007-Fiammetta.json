@@ -35,10 +35,10 @@
                 "dormitory":[
                     {"skip":false,"operators":["斯卡蒂","乌尔比安","幽灵鲨","安哲拉","凛视"],"sort":true,"autofill":false},
                     {"skip":false,"operators":["火龙S黑角","维什戴尔","泰拉大陆调查团","孑","格雷伊"],"sort":true,"autofill":false},
-                    {"skip":false,"operators":["塞雷娅","多萝西","赫默","伊芙利特","星源"],"sort":false,"autofill":false},
-                    {"skip":false,"operators":["菲亚梅塔","歌蕾蒂娅","麒麟R夜刀","地灵","提丰"],"sort":true,"autofill":false}],
+                    {"skip":false,"operators":["梅尔","多萝西","赫默","伊芙利特","白面鸮"],"sort":false,"autofill":false},
+                    {"skip":false,"operators":["菲亚梅塔","歌蕾蒂娅","麒麟R夜刀","遥","提丰"],"sort":true,"autofill":false}],
                 "control":[
-                    {"skip":false,"operators":["阿斯卡纶","Mon3tr","薇薇安娜","焰尾","戴菲恩"],"sort":true,"autofill":false}],
+                    {"skip":false,"operators":["诗怀雅","斩业星熊","薇薇安娜","焰尾","戴菲恩"],"sort":true,"autofill":false}],
                 "meeting":[
                     {"skip":true,"operators":[],"sort":true,"autofill":false}],
                 "hire":[
@@ -76,9 +76,9 @@
                     {"skip":true,"operators":[],"sort":false,"autofill":false}],
                 "dormitory":[
                     {"skip":false,"operators":["霜叶","白铁","年","芳汀","能天使"],"sort":true,"autofill":false},
-                    {"skip":false,"operators":["九色鹿","Castle-3","德克萨斯","寒芒克洛丝","林"],"sort":true,"autofill":false},
-                    {"skip":false,"operators":["塞雷娅","多萝西","赫默","伊芙利特","星源"],"sort":false,"autofill":false},
-                    {"skip":false,"operators":["菲亚梅塔","海霓","斑点","食铁兽","拉普兰德"],"sort":true,"autofill":false}],
+                    {"skip":false,"operators":["九色鹿","Castle-3","蕾缪安","寒芒克洛丝","遥"],"sort":true,"autofill":false},
+                    {"skip":false,"operators":["梅尔","多萝西","赫默","伊芙利特","白面鸮"],"sort":false,"autofill":false},
+                    {"skip":false,"operators":["菲亚梅塔","海霓","斑点","酒神","空"],"sort":true,"autofill":false}],
                 "control":[
                     {"skip":true,"operators":[],"sort":false,"autofill":false}],
                 "meeting":[
@@ -120,10 +120,10 @@
                 "dormitory":[
                     {"skip":false,"operators":["流明","白铁","年","芳汀","琴柳"],"sort":true,"autofill":false},
                     {"skip":false,"operators":["冰酿","九色鹿"],"sort":true,"autofill":false},
-                    {"skip":false,"operators":["塞雷娅","多萝西","赫默","伊芙利特","星源"],"sort":false,"autofill":false},
+                    {"skip":false,"operators":["梅尔","多萝西","赫默","伊芙利特","白面鸮"],"sort":false,"autofill":false},
                     {"skip":false,"operators":["菲亚梅塔","泥岩"],"sort":true,"autofill":false}],
                 "control":[
-                    {"skip":false,"operators":["阿斯卡纶","Mon3tr","薇薇安娜","焰尾","戴菲恩"],"sort":false,"autofill":false}],
+                    {"skip":false,"operators":["诗怀雅","斩业星熊","薇薇安娜","焰尾","戴菲恩"],"sort":false,"autofill":false}],
                 "meeting":[
                     {"skip":false,"operators":["伊内丝","晓歌"],"sort":false,"autofill":false}],
                 "hire":[

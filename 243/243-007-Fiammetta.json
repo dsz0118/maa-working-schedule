@@ -183,7 +183,7 @@
                     {"skip":false,"operators":["拉普兰德","能天使","蕾缪安","空","红云"],"sort":true,"autofill":false},
                     {"skip":false,"operators":["稀音","圣约送葬人","泡泡","火神","贝娜"],"sort":true,"autofill":false},
                     {"skip":false,"operators":["梅尔","伊芙利特","多萝西","赫默","白面鸮"],"sort":true,"autofill":false},
-                    {"skip":false,"operators":["菲亚梅塔","九色鹿","白铁","年","芳汀"],"sort":true,"autofill":false}],
+                    {"skip":false,"operators":["菲亚梅塔","伊内丝","晓歌","白铁","九色鹿"],"sort":true,"autofill":false}],
                 "processing":[
                     {"skip":true,"operators":[],"sort":true,"autofill":false}],
                 "power":[
@@ -191,7 +191,7 @@
                     {"skip":false,"operators":["承曦格雷伊"],"sort":true,"autofill":false},
                     {"skip":false,"operators":["澄闪"],"sort":true,"autofill":false}],
                 "meeting":[
-                    {"skip":false,"operators":["伊内丝", "晓歌"],"sort":true,"autofill":false}],
+                    {"skip":false,"operators":["提丰","凛视"],"sort":true,"autofill":false}],
                 "hire":[
                     {"skip":false,"operators":["斥罪"],"sort":true,"autofill":false}]}
         }

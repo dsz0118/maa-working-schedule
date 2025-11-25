@@ -116,7 +116,7 @@
                     {"skip":false,"product":"Pure Gold","use_operator_groups": true,"operators":["manu-03-GOLD"],"sort":true,"autofill":false},
                     {"skip":false,"product":"Pure Gold","use_operator_groups": true,"operators":["manu-04-GOLD"],"sort":true,"autofill":false}],
                 "dormitory":[
-                    {"skip":false,"operators":["孑","提丰","凛视","海霓","格雷伊"],"sort":true,"autofill":false},
+                    {"skip":false,"operators":["孑","提丰","凛视","烛煌","格雷伊"],"sort":true,"autofill":false},
                     {"skip":false,"operators":["遥","德克萨斯","阿米娅","Mon3tr","魔王"],"sort":true,"autofill":false},
                     {"skip":false,"operators":["梅尔","伊芙利特","多萝西","赫默","白面鸮"],"sort":true,"autofill":false},
                     {"skip":false,"operators":["菲亚梅塔","九色鹿","白铁","年","芳汀"],"sort":true,"autofill":false}],

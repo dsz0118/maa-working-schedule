@@ -27,7 +27,7 @@
                 "power":[
                     {"skip":false,"operators":["缪尔赛思"],"sort":false,"autofill":false},
                     {"skip":false,"operators":["格雷伊"],"sort":false,"autofill":false},
-                    {"skip":false,"operators":["海霓"],"sort":false,"autofill":false}],
+                    {"skip":false,"operators":["烛煌"],"sort":false,"autofill":false}],
                 "dormitory":[
                     {"skip":false,"operators":["流明","承曦格雷伊","澄闪","至简","但书"],"sort":false,"autofill":false},
                     {"skip":false,"operators":["冰酿","伊内丝","晓歌","断罪者","槐琥"],"sort":false,"autofill":false},
@@ -73,7 +73,7 @@
                     {"skip":false,"operators":["澄闪"],"sort":false,"autofill":false}],
                 "dormitory":[
                     {"skip":false,"operators":["流明","白铁","年","芳汀","九色鹿"],"sort":false,"autofill":false},
-                    {"skip":false,"operators":["冰酿","提丰","凛视","格雷伊","海霓"],"sort":false,"autofill":false},
+                    {"skip":false,"operators":["冰酿","提丰","凛视","格雷伊","烛煌"],"sort":false,"autofill":false},
                     {"skip":false,"operators":["白面鸮","多萝西","赫默","伊芙利特","梅尔"],"sort":false,"autofill":false},
                     {"skip":false,"operators":["菲亚梅塔","斥罪","柏喙","泥岩","休谟斯"],"sort":true,"autofill":false}],
                 "control":[

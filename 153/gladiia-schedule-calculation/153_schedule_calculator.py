@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import math
+from sympy import symbols, Eq, solve
 
 # 单位为分钟
 DAY_TIME = 24 * 60
@@ -13,7 +14,7 @@ CENTER_OPERATOR_SKILL_RECOVER = 0.05 * 3
 # 控制中枢的全体默认心情消耗速度
 DEFAULT_CENTER_MOOD_COST = 1 - DEFAULT_CENTER_ORIGIN_RECOVER - CENTER_OPERATOR_SKILL_RECOVER
 # 缓冲时间: 如果并没有在预期时间点执行任务(网络问题, 执行速度问题等), 在该容错时间内, 程序执行并不会影响后续排班准点执行, 单位为min(<=2min)
-BUFFER_TIME = 1
+BUFFER_TIME = 5
 # 菲亚梅塔最后一换执行时间: 此班执行后, 后面的一次排班中歌蒂会出现和菲亚梅塔一起休息的情况, 两班之间时间间隔较长, 推荐在 16:00 以后, 可避开在方舟更新维护时间段内换班的情况
 FIAMMETTA_LAST_CHANGE_TIME = 16 * 60 + 10
 
@@ -35,13 +36,9 @@ DEFAULT_DORMITORY_MOOD_RECOVER = 4 + 0.25
 SPECIAL_OFFICE_PENANCE_MOOD_COST = DEFAULT_OFFICE_MOOD_COST + 0.5
 SPECIAL_TRADE_PROVISO_IN_SHAMARE_TEAM_MOOD_COST = DEFAULT_TRADE_MOOD_COST + 0.25
 
+GLADIIA_FIAMMETTA_RATE = GLADIIA_COST / FIAMMETTA_RECOVER
 
 # --- 歌蒂007相关函数 ---
-
-def calculate_gladiia_fiammetta_rate():
-    global GLADIIA_COST, FIAMMETTA_RECOVER
-    return GLADIIA_COST / FIAMMETTA_RECOVER
-
 
 def get_time_added_buffer(time):
     global BUFFER_TIME
@@ -65,34 +62,66 @@ def convert_to_hour_string(time):
     mins = int(time % 60)
     return f"{hours:02d}小时{mins:02d}分钟"
 
+def get_next_rest_time(time):
+    global BUFFER_TIME, GLADIIA_FIAMMETTA_RATE
+    return GLADIIA_FIAMMETTA_RATE * time + BUFFER_TIME
 
-def calculate_all_times(time=0):
-    global FIAMMETTA_RECOVER, FIAMMETTA_CHANGE_TIME, GLADIIA_RECOVER, GLADIIA_COST, DAY_TIME
-    gladiia_fiammetta_rate = calculate_gladiia_fiammetta_rate()
+def get_init_rest_time(time):
+    global BUFFER_TIME
+    return time + BUFFER_TIME
 
-    init_gladiia_work_time = time if time != 0 else (DAY_TIME / (
-            math.pow(gladiia_fiammetta_rate, FIAMMETTA_CHANGE_TIME) - 1) * (
-                                                             gladiia_fiammetta_rate - 1))
-    second_gladiia_work_time = gladiia_fiammetta_rate * get_time_added_buffer(init_gladiia_work_time)
-    third_gladiia_work_time = gladiia_fiammetta_rate * get_time_added_buffer(second_gladiia_work_time)
+def get_init_x():
+    global FIAMMETTA_CHANGE_TIME, DAY_TIME
+    x = symbols('x')
+    x0 = get_init_rest_time(x)
 
-    last_gladiia_work_time = (GLADIIA_RECOVER * gladiia_fiammetta_rate * get_time_added_buffer(
-        third_gladiia_work_time) + FIAMMETTA_RECOVER * init_gladiia_work_time) / (
-                                     GLADIIA_COST + GLADIIA_RECOVER)
-    common_rest_time = gladiia_fiammetta_rate * get_time_added_buffer(third_gladiia_work_time) - last_gladiia_work_time
-    while FIAMMETTA_RECOVER * (common_rest_time + last_gladiia_work_time) < GLADIIA_COST * third_gladiia_work_time:
-        last_gladiia_work_time -= 1
-        common_rest_time += 1
-    last_gladiia_work_time -= BUFFER_TIME
-    common_rest_time += BUFFER_TIME
+    x_list = [x0]
+    for i in range(FIAMMETTA_CHANGE_TIME - 1):
+        x_next = get_next_rest_time(x_list[-1])
+        x_list.append(x_next)
 
-    total_time = int(init_gladiia_work_time) + int(second_gladiia_work_time) + int(third_gladiia_work_time) + int(
-        last_gladiia_work_time) + round(common_rest_time)
-    if total_time > DAY_TIME:
-        return calculate_all_times(init_gladiia_work_time - 1)
-    else:
-        return [int(init_gladiia_work_time), int(second_gladiia_work_time), int(third_gladiia_work_time),
-                int(last_gladiia_work_time), round(common_rest_time) + total_time - DAY_TIME]
+    # 构建方程 x0 + x1 + x2 + x3 - 1440 = 0
+    eq = Eq(sum(x_list) - DAY_TIME, 0)
+
+    # 求解 x
+    solutions = solve(eq, x)
+    return solutions[0]
+
+def get_gladiia_work_time(whole_work_and_rest_time, init_theoretical_gladiia_work_time):
+    global FIAMMETTA_RECOVER, GLADIIA_RECOVER, GLADIIA_COST, DAY_TIME, GLADIIA_FIAMMETTA_RATE, BUFFER_TIME
+    x = symbols('x')
+    eq = Eq(GLADIIA_COST * x - GLADIIA_RECOVER * (whole_work_and_rest_time - x),  FIAMMETTA_RECOVER * init_theoretical_gladiia_work_time)
+    solutions = solve(eq, x)
+    return solutions[0]
+
+def get_gladiia_max_work_time():
+    global DAY_TIME, GLADIIA_COST, BUFFER_TIME
+    return DAY_TIME / GLADIIA_COST // 1 - BUFFER_TIME
+
+def calculate_all_times():
+    global DAY_TIME
+    init_theoretical_gladiia_work_time = get_init_x()
+
+    init_gladiia_work_time = get_init_rest_time(init_theoretical_gladiia_work_time)
+
+    second_gladiia_work_time = get_next_rest_time(init_gladiia_work_time)
+
+    third_gladiia_work_time = get_next_rest_time(second_gladiia_work_time)
+
+    init_gladiia_work_time = init_theoretical_gladiia_work_time // 1
+
+    second_gladiia_work_time = second_gladiia_work_time // 1
+
+    third_gladiia_work_time = third_gladiia_work_time // 1
+
+    whole_work_and_rest_time = DAY_TIME - init_gladiia_work_time - second_gladiia_work_time - third_gladiia_work_time
+
+    last_gladiia_work_time = min(get_gladiia_work_time(whole_work_and_rest_time, init_theoretical_gladiia_work_time) // 1 , get_gladiia_max_work_time())
+
+    common_rest_time = whole_work_and_rest_time - last_gladiia_work_time
+
+    return [int(init_gladiia_work_time), int(second_gladiia_work_time), int(third_gladiia_work_time),
+            int(last_gladiia_work_time), int(common_rest_time)]
 
 
 # --- 基建换班一日一换相关函数 ---

@@ -13,8 +13,8 @@ DEFAULT_CENTER_ORIGIN_RECOVER = 0.25
 CENTER_OPERATOR_SKILL_RECOVER = 0.05 * 3
 # 控制中枢的全体默认心情消耗速度
 DEFAULT_CENTER_MOOD_COST = 1 - DEFAULT_CENTER_ORIGIN_RECOVER - CENTER_OPERATOR_SKILL_RECOVER
-# 缓冲时间: 如果并没有在预期时间点执行任务(网络问题, 执行速度问题等), 在该容错时间内, 程序执行并不会影响后续排班准点执行, 单位为min(<=2min)
-BUFFER_TIME = 5
+# 缓冲时间: 如果并没有在预期时间点执行任务(网络问题, 执行速度问题等), 在该容错时间内, 程序执行并不会影响后续排班准点执行, 单位为min
+BUFFER_TIME = 8
 # 菲亚梅塔最后一换执行时间: 此班执行后, 后面的一次排班中歌蒂会出现和菲亚梅塔一起休息的情况, 两班之间时间间隔较长, 推荐在 16:00 以后, 可避开在方舟更新维护时间段内换班的情况
 FIAMMETTA_LAST_CHANGE_TIME = 16 * 60 + 10
 
@@ -39,28 +39,6 @@ SPECIAL_TRADE_PROVISO_IN_SHAMARE_TEAM_MOOD_COST = DEFAULT_TRADE_MOOD_COST + 0.25
 GLADIIA_FIAMMETTA_RATE = GLADIIA_COST / FIAMMETTA_RECOVER
 
 # --- 歌蒂007相关函数 ---
-
-def get_time_added_buffer(time):
-    global BUFFER_TIME
-    return BUFFER_TIME + time + BUFFER_TIME
-
-
-def convert_to_definite_time_string(time):
-    global FIAMMETTA_LAST_CHANGE_TIME
-    hours = int(time // 60) + FIAMMETTA_LAST_CHANGE_TIME // 60
-    mins = int(time % 60) + FIAMMETTA_LAST_CHANGE_TIME % 60
-    if mins > 60:
-        mins -= 60
-        hours += 1
-    if hours >= 24:
-        hours -= 24
-    return f"{hours:02d}:{mins:02d}"
-
-
-def convert_to_hour_string(time):
-    hours = int(time // 60)
-    mins = int(time % 60)
-    return f"{hours:02d}小时{mins:02d}分钟"
 
 def get_next_rest_time(time):
     global BUFFER_TIME, GLADIIA_FIAMMETTA_RATE
@@ -116,24 +94,42 @@ def calculate_all_times():
 
     whole_work_and_rest_time = DAY_TIME - init_gladiia_work_time - second_gladiia_work_time - third_gladiia_work_time
 
-    last_gladiia_work_time = min(get_gladiia_work_time(whole_work_and_rest_time, init_theoretical_gladiia_work_time) // 1 , get_gladiia_max_work_time())
+    last_gladiia_work_time = min(get_gladiia_work_time(whole_work_and_rest_time, init_theoretical_gladiia_work_time) // 1 - BUFFER_TIME / 2, get_gladiia_max_work_time())
 
     common_rest_time = whole_work_and_rest_time - last_gladiia_work_time
 
+    last_gladiia_work_time_2_fia = last_gladiia_work_time - common_rest_time * GLADIIA_RECOVER / GLADIIA_COST
+
     return [int(init_gladiia_work_time), int(second_gladiia_work_time), int(third_gladiia_work_time),
-            int(last_gladiia_work_time), int(common_rest_time)]
+            int(last_gladiia_work_time), int(common_rest_time), int(last_gladiia_work_time_2_fia)]
 
 
 # --- 基建换班一日一换相关函数 ---
 
+def convert_to_definite_time_string(time):
+    global FIAMMETTA_LAST_CHANGE_TIME
+    hours = int(time // 60) + FIAMMETTA_LAST_CHANGE_TIME // 60
+    mins = int(time % 60) + FIAMMETTA_LAST_CHANGE_TIME % 60
+    if mins > 60:
+        mins -= 60
+        hours += 1
+    if hours >= 24:
+        hours -= 24
+    return f"{hours:02d}:{mins:02d}"
+
+def convert_to_hour_string(time):
+    hours = int(time // 60)
+    mins = int(time % 60)
+    return f"{hours:02d}小时{mins:02d}分钟"
+
 def calculate_normal_room_rest_time(mood_cost):
     global DEFAULT_DORMITORY_MOOD_RECOVER, DAY_TIME, BUFFER_TIME
-    rest_time = get_time_added_buffer(math.ceil(DAY_TIME * mood_cost / (DEFAULT_DORMITORY_MOOD_RECOVER + mood_cost)))
+    rest_time = get_init_rest_time(math.ceil(DAY_TIME * mood_cost / (DEFAULT_DORMITORY_MOOD_RECOVER + mood_cost)))
     return convert_to_hour_string(rest_time)
 
 
 def main():
-    init_gladiia_work_time, second_gladiia_work_time, third_gladiia_work_time, last_gladiia_work_time, common_rest_time = calculate_all_times()
+    init_gladiia_work_time, second_gladiia_work_time, third_gladiia_work_time, last_gladiia_work_time, common_rest_time, last_gladiia_work_time_2_fia = calculate_all_times()
 
     print(f"一日一休的情况下，各设施至少需要休息如下时间:")
     print(f"控制中枢: {calculate_normal_room_rest_time(DEFAULT_CENTER_MOOD_COST)}")
@@ -152,13 +148,13 @@ def main():
     print(
         f"153-SP-01班时间为 {convert_to_definite_time_string(last_gladiia_work_time)}, 本次换班可持续{convert_to_hour_string(common_rest_time)}")
     print(
-        f"153-SP-02班时间为 {convert_to_definite_time_string(last_gladiia_work_time + common_rest_time)}, 本次换班可持续{convert_to_hour_string(init_gladiia_work_time)}")
+        f"153-SP-02班时间为 {convert_to_definite_time_string(last_gladiia_work_time + common_rest_time)}, 本次换班可持续{convert_to_hour_string(init_gladiia_work_time)}, 肥鸭在本次换班后需要休息{convert_to_hour_string(GLADIIA_FIAMMETTA_RATE * last_gladiia_work_time_2_fia)}")
     print(
-        f"153-007-01班时间为 {convert_to_definite_time_string(last_gladiia_work_time + common_rest_time + init_gladiia_work_time)}, 本次换班可持续{convert_to_hour_string(second_gladiia_work_time)}")
+        f"153-007-01班时间为 {convert_to_definite_time_string(last_gladiia_work_time + common_rest_time + init_gladiia_work_time)}, 本次换班可持续{convert_to_hour_string(second_gladiia_work_time)}, 肥鸭在本次换班后需要休息{convert_to_hour_string(GLADIIA_FIAMMETTA_RATE * init_gladiia_work_time)}")
     print(
-        f"153-007-02班时间为 {convert_to_definite_time_string(last_gladiia_work_time + common_rest_time + init_gladiia_work_time + second_gladiia_work_time)}, 本次换班可持续{convert_to_hour_string(third_gladiia_work_time)}")
+        f"153-007-02班时间为 {convert_to_definite_time_string(last_gladiia_work_time + common_rest_time + init_gladiia_work_time + second_gladiia_work_time)}, 本次换班可持续{convert_to_hour_string(third_gladiia_work_time)}, 肥鸭在本次换班后需要休息{convert_to_hour_string(GLADIIA_FIAMMETTA_RATE * second_gladiia_work_time)}")
     print(
-        f"153-007-03班时间为 {convert_to_definite_time_string(0)}, 本次换班可持续{convert_to_hour_string(last_gladiia_work_time)}")
+        f"153-007-03班时间为 {convert_to_definite_time_string(0)}, 本次换班可持续{convert_to_hour_string(last_gladiia_work_time)}, 肥鸭在本次换班后需要休息{convert_to_hour_string(GLADIIA_FIAMMETTA_RATE * third_gladiia_work_time)}")
 
 
 if __name__ == "__main__":

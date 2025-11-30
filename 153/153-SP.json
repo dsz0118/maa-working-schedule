@@ -41,7 +41,7 @@
             "rooms":{
                 "control":[
                     {"use_operator_groups": true,
-                        "operators":["control-main-1"]}],
+                        "operators":["control-standby-0"]}],
                 "manufacture":[
                     {"use_operator_groups": true, "product":"Battle Record",
                         "operators":["manu-EXP-standby-1"]},

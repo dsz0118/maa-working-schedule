@@ -17,7 +17,7 @@
                 "target":"歌蕾蒂娅"},
             "groups": [
                 {"name": "control-main-0", "operators": ["诗怀雅","斩业星熊","薇薇安娜","焰尾","歌蕾蒂娅"]},
-                {"name": "control-standby-0", "operators": ["阿斯卡纶","Mon3tr","魔王","维什戴尔","戴菲恩"]},
+                {"name": "control-standby-0", "operators": ["阿斯卡纶","Mon3tr","魔王","八幡海铃","戴菲恩"]},
 
                 {"name": "trade-main-0", "operators": ["龙舌兰","但书","巫恋"]},
                 {"name": "trade-main-1", "operators": ["但书","巫恋","龙舌兰"]},
@@ -93,7 +93,7 @@
                 "order":"pre"},
             "groups": [
                 {"name": "control-main-0", "operators": ["诗怀雅","斩业星熊","薇薇安娜","焰尾","歌蕾蒂娅"]},
-                {"name": "control-standby-0", "operators": ["阿斯卡纶","Mon3tr","魔王","维什戴尔","戴菲恩"]},
+                {"name": "control-standby-0", "operators": ["阿斯卡纶","Mon3tr","魔王","八幡海铃","戴菲恩"]},
 
                 {"name": "trade-main-0", "operators": ["龙舌兰","但书","巫恋"]},
                 {"name": "trade-main-1", "operators": ["但书","巫恋","龙舌兰"]},
@@ -169,7 +169,7 @@
                 "order":"pre"},
             "groups": [
                 {"name": "control-main-0", "operators": ["诗怀雅","斩业星熊","薇薇安娜","焰尾","歌蕾蒂娅"]},
-                {"name": "control-standby-0", "operators": ["阿斯卡纶","Mon3tr","魔王","维什戴尔","戴菲恩"]},
+                {"name": "control-standby-0", "operators": ["阿斯卡纶","Mon3tr","魔王","八幡海铃","戴菲恩"]},
 
                 {"name": "trade-main-0", "operators": ["龙舌兰","但书","巫恋"]},
                 {"name": "trade-main-1", "operators": ["但书","巫恋","龙舌兰"]},

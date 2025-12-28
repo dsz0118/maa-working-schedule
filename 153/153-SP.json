@@ -19,7 +19,7 @@
                 "order":"pre"},
             "groups": [
                 {"name": "control-main-0", "operators": ["诗怀雅","斩业星熊","薇薇安娜","焰尾","歌蕾蒂娅"]},
-                {"name": "control-standby-0", "operators": ["阿斯卡纶","Mon3tr","魔王","维什戴尔","戴菲恩"]},
+                {"name": "control-standby-0", "operators": ["阿斯卡纶","Mon3tr","魔王","八幡海铃","戴菲恩"]},
 
                 {"name": "trade-main-0", "operators": ["龙舌兰","但书","巫恋"]},
                 {"name": "trade-main-1", "operators": ["但书","巫恋","龙舌兰"]},
@@ -90,7 +90,7 @@
                 "order":"pre"},
             "groups": [
                 {"name": "control-main-0", "operators": ["诗怀雅","斩业星熊","薇薇安娜","焰尾","歌蕾蒂娅"]},
-                {"name": "control-standby-0", "operators": ["阿斯卡纶","Mon3tr","魔王","维什戴尔","戴菲恩"]},
+                {"name": "control-standby-0", "operators": ["阿斯卡纶","Mon3tr","魔王","八幡海铃","戴菲恩"]},
 
                 {"name": "trade-main-0", "operators": ["龙舌兰","但书","巫恋"]},
                 {"name": "trade-main-1", "operators": ["但书","巫恋","龙舌兰"]},
@@ -132,7 +132,7 @@
                     {"sort":true,
                         "operators":["菲亚梅塔","砾","引星棘刺","苍苔","戴菲恩"]},
                     {"operators":["火神","贝娜","泡泡","年","九色鹿"]},
-                    {"operators":["冰酿","Mon3tr","阿斯卡纶","魔王","维什戴尔"]},
+                    {"operators":["冰酿","Mon3tr","阿斯卡纶","魔王","八幡海铃"]},
                     {"operators":["白面鸮","多萝西","赫默","伊芙利特","梅尔"]}],
                 "power":[
                     {"operators":["缪尔赛思"]},

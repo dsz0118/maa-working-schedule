@@ -21,9 +21,9 @@
                 "order":"pre"},
             "groups": [
                 {"name": "control-main-0", "operators": ["诗怀雅","斩业星熊","薇薇安娜","焰尾","戴菲恩"]},
-                {"name": "control-standby-0", "operators": ["诗怀雅","斩业星熊","戴菲恩","维什戴尔","歌蕾蒂娅"]},
+                {"name": "control-standby-0", "operators": ["诗怀雅","斩业星熊","戴菲恩","八幡海铃","歌蕾蒂娅"]},
                 {"name": "control-standby-1", "operators": ["麒麟R夜刀","火龙S黑角","薇薇安娜","焰尾","歌蕾蒂娅"]},
-                {"name": "control-EMER-0", "operators": ["阿米娅","Mon3tr","魔王","维什戴尔","歌蕾蒂娅"]},
+                {"name": "control-EMER-0", "operators": ["阿米娅","Mon3tr","魔王","八幡海铃","歌蕾蒂娅"]},
                 {"name": "control-EMER-1", "operators": ["阿米娅","Mon3tr","薇薇安娜","焰尾","戴菲恩"]},
 
                 {"name": "trade-main-0", "operators": ["巫恋","柏喙","龙舌兰"]},
@@ -92,9 +92,9 @@
                 "order":"pre"},
             "groups": [
                 {"name": "control-main-0", "operators": ["诗怀雅","斩业星熊","薇薇安娜","焰尾","戴菲恩"]},
-                {"name": "control-standby-0", "operators": ["诗怀雅","斩业星熊","戴菲恩","维什戴尔","歌蕾蒂娅"]},
+                {"name": "control-standby-0", "operators": ["诗怀雅","斩业星熊","戴菲恩","八幡海铃","歌蕾蒂娅"]},
                 {"name": "control-standby-1", "operators": ["麒麟R夜刀","火龙S黑角","薇薇安娜","焰尾","歌蕾蒂娅"]},
-                {"name": "control-EMER-0", "operators": ["阿米娅","Mon3tr","魔王","维什戴尔","歌蕾蒂娅"]},
+                {"name": "control-EMER-0", "operators": ["阿米娅","Mon3tr","魔王","八幡海铃","歌蕾蒂娅"]},
                 {"name": "control-EMER-1", "operators": ["阿米娅","Mon3tr","薇薇安娜","焰尾","戴菲恩"]},
 
                 {"name": "trade-main-0", "operators": ["巫恋","柏喙","龙舌兰"]},

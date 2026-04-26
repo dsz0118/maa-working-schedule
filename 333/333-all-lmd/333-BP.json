@@ -6,7 +6,7 @@
     "plans":[
         {
             "name":"BP-01-蕾乐贸易组/娜斯提散件组/苍苔组",
-            "description":"01:45, 主要休息: 部分中枢/斥罪/蕾乐贸易组/娜斯提散件组/苍苔组",
+            "description":"01:45, 主要休息: 部分中枢/斥罪/蕾乐贸易组/娜斯提散件组/苍苔组, 不使用无人机",
             "period": [
                 ["01:00", "03:30"]
             ],
@@ -57,7 +57,7 @@
             ],
             "rooms":{
                 "trading":[
-                    {"use_operator_groups": true, "product":"Orundum", "sort":true,
+                    {"use_operator_groups": true, "product":"LMD", "sort":true,
                         "operators":["trade-0-LMD-standby"]},
                     {"use_operator_groups": true, "product":"LMD", "sort":true,
                         "operators":["trade-1-standby"]},
@@ -67,7 +67,7 @@
                     {"use_operator_groups": true, "sort":true,
                         "operators":["control-0-standby-0"]}],
                 "manufacture":[
-                    {"use_operator_groups": true, "product":"Originium Shard",
+                    {"use_operator_groups": true, "product":"Pure Gold",
                         "operators":["manu-0-GOLD-standby-0"]},
                     {"use_operator_groups": true, "product":"Pure Gold",
                         "operators":["manu-1-GOLD-standby-ALL-GOLD"]},
@@ -93,13 +93,13 @@
         },
         {
             "name":"BP-02-推王组/自动化/发电站",
-            "description":"05:15, 主要休息 部分中枢/推王组/自动化/发电站",
+            "description":"05:15, 主要休息 部分中枢/推王组/自动化/发电站, 无人机加速 赤金",
             "period": [
                 ["03:31", "09:00"]
             ],
             "drones":{
                 "room":"manufacture",
-                "index":3,
+                "index":1,
                 "enable":true,
                 "order":"pre"},
             "groups": [
@@ -149,7 +149,7 @@
             ],
             "rooms":{
                 "trading":[
-                    {"use_operator_groups": true, "product":"Orundum", "sort":true,
+                    {"use_operator_groups": true, "product":"LMD", "sort":true,
                         "operators":["trade-0-LMD-main"]},
                     {"use_operator_groups": true, "product":"LMD", "sort":true,
                         "operators":["trade-1-standby"]},
@@ -159,7 +159,7 @@
                     {"use_operator_groups": true, "sort":true,
                         "operators":["control-0-standby-1"]}],
                 "manufacture":[
-                    {"use_operator_groups": true, "product":"Originium Shard",
+                    {"use_operator_groups": true, "product":"Pure Gold",
                         "operators":["manu-0-GOLD-standby-1"]},
                     {"use_operator_groups": true, "product":"Pure Gold",
                         "operators":["manu-1-GOLD-main"]},

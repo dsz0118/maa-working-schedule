@@ -16,7 +16,7 @@
                 "order":"pre"},
             "drones":{
                 "room":"trading",
-                "index":1,
+                "index":2,
                 "enable":true,
                 "order":"pre"},
             "groups": [
@@ -66,7 +66,7 @@
             ],
             "rooms":{
                 "trading":[
-                    {"use_operator_groups": true, "product":"Orundum", "sort":true,
+                    {"use_operator_groups": true, "product":"LMD", "sort":true,
                         "operators":["trade-0-LMD-EMER"]},
                     {"use_operator_groups": true, "product":"LMD", "sort":true,
                         "operators":["trade-1-EMER"]},
@@ -76,7 +76,7 @@
                     {"use_operator_groups": true, "sort":true,
                         "operators":["control-0-EMER-0"]}],
                 "manufacture":[
-                    {"use_operator_groups": true, "product":"Originium Shard",
+                    {"use_operator_groups": true, "product":"Pure Gold",
                         "operators":["manu-0-GOLD-EMER"]},
                     {"use_operator_groups": true, "product":"Pure Gold",
                         "operators":["manu-1-GOLD-EMER-ALL-GOLD"]},
@@ -108,7 +108,7 @@
             ],
             "drones":{
                 "room":"trading",
-                "index":1,
+                "index":2,
                 "enable":true,
                 "order":"pre"},
             "groups": [
@@ -158,7 +158,7 @@
             ],
             "rooms":{
                 "trading":[
-                    {"use_operator_groups": true, "product":"Orundum", "sort":true,
+                    {"use_operator_groups": true, "product":"LMD", "sort":true,
                         "operators":["trade-0-LMD-EMER"]},
                     {"use_operator_groups": true, "product":"LMD", "sort":true,
                         "operators":["trade-1-main"]},
@@ -168,7 +168,7 @@
                     {"use_operator_groups": true, "sort":true,
                         "operators":["control-0-EMER-1"]}],
                 "manufacture":[
-                    {"use_operator_groups": true, "product":"Originium Shard",
+                    {"use_operator_groups": true, "product":"Pure Gold",
                         "operators":["manu-0-GOLD-main"]},
                     {"use_operator_groups": true, "product":"Pure Gold",
                         "operators":["manu-1-GOLD-main"]},

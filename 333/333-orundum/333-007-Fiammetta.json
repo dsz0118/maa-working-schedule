@@ -21,11 +21,11 @@
                 {"name": "control-0-EMER-0", "operators": ["阿米娅","Mon3tr","维什戴尔","魔王","歌蕾蒂娅"]},
                 {"name": "control-0-EMER-1", "operators": ["阿米娅","Mon3tr","薇薇安娜","八幡海铃","戴菲恩"]},
 
-                {"name": "trade-0-LMD-main", "operators": ["蕾缪安","能天使","石英"]},
+                {"name": "trade-0-LMD-main", "operators": ["蕾缪安","能天使","空弦"]},
                 {"name": "trade-0-LMD-standby", "operators": ["德克萨斯","拉普兰德","孑"]},
                 {"name": "trade-0-LMD-EMER", "operators": ["德克萨斯","拉普兰德","孑"]},
 
-                {"name": "trade-0-Orundum-main", "operators": ["蕾缪安","能天使","石英"]},
+                {"name": "trade-0-Orundum-main", "operators": ["蕾缪安","能天使","空弦"]},
                 {"name": "trade-0-Orundum-standby", "operators": ["德克萨斯","拉普兰德","孑"]},
                 {"name": "trade-0-Orundum-EMER", "operators": ["德克萨斯","拉普兰德","孑"]},
                 
@@ -118,11 +118,11 @@
                 {"name": "control-0-EMER-0", "operators": ["阿米娅","Mon3tr","维什戴尔","魔王","歌蕾蒂娅"]},
                 {"name": "control-0-EMER-1", "operators": ["阿米娅","Mon3tr","薇薇安娜","八幡海铃","戴菲恩"]},
 
-                {"name": "trade-0-LMD-main", "operators": ["蕾缪安","能天使","石英"]},
+                {"name": "trade-0-LMD-main", "operators": ["蕾缪安","能天使","空弦"]},
                 {"name": "trade-0-LMD-standby", "operators": ["德克萨斯","拉普兰德","孑"]},
                 {"name": "trade-0-LMD-EMER", "operators": ["德克萨斯","拉普兰德","孑"]},
 
-                {"name": "trade-0-Orundum-main", "operators": ["蕾缪安","能天使","石英"]},
+                {"name": "trade-0-Orundum-main", "operators": ["蕾缪安","能天使","空弦"]},
                 {"name": "trade-0-Orundum-standby", "operators": ["德克萨斯","拉普兰德","孑"]},
                 {"name": "trade-0-Orundum-EMER", "operators": ["德克萨斯","拉普兰德","孑"]},
                 
@@ -215,11 +215,11 @@
                 {"name": "control-0-EMER-0", "operators": ["阿米娅","Mon3tr","维什戴尔","魔王","歌蕾蒂娅"]},
                 {"name": "control-0-EMER-1", "operators": ["阿米娅","Mon3tr","薇薇安娜","八幡海铃","戴菲恩"]},
 
-                {"name": "trade-0-LMD-main", "operators": ["蕾缪安","能天使","石英"]},
+                {"name": "trade-0-LMD-main", "operators": ["蕾缪安","能天使","空弦"]},
                 {"name": "trade-0-LMD-standby", "operators": ["德克萨斯","拉普兰德","孑"]},
                 {"name": "trade-0-LMD-EMER", "operators": ["德克萨斯","拉普兰德","孑"]},
 
-                {"name": "trade-0-Orundum-main", "operators": ["蕾缪安","能天使","石英"]},
+                {"name": "trade-0-Orundum-main", "operators": ["蕾缪安","能天使","空弦"]},
                 {"name": "trade-0-Orundum-standby", "operators": ["德克萨斯","拉普兰德","孑"]},
                 {"name": "trade-0-Orundum-EMER", "operators": ["德克萨斯","拉普兰德","孑"]},
                 

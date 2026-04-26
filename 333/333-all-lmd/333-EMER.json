@@ -1,14 +1,14 @@
 {
     "author":"GitHub@dsz0118",
-    "description":"当maa发生意外时, 使用的排班表",
+    "description":"当 333纯钱排班表 发生意外时, 使用的应急处理排班表",
     "title":"EMER-X",
-    "buildingType":243,
+    "buildingType":333,
     "plans":[
         {
             "name":"EMER-01-09:00_13:00",
             "description":"最好在13:00之前使用, 01:00, 01:45, 05:15, 09:00的换班中出现任何问题均可使用",
             "period": [
-                ["00:00", "15:15"]
+                ["00:00", "15:45"]
             ],
             "Fiammetta":{
                 "enable":true,
@@ -20,32 +20,74 @@
                 "enable":true,
                 "order":"pre"},
             "groups": [
+                {"name": "control-0-main", "operators": ["诗怀雅","斩业星熊","薇薇安娜","八幡海铃","戴菲恩"]},
+                {"name": "control-0-standby-0", "operators": ["诗怀雅","斩业星熊","戴菲恩","魔王","歌蕾蒂娅"]},
+                {"name": "control-0-standby-1", "operators": ["麒麟R夜刀","火龙S黑角","薇薇安娜","八幡海铃","歌蕾蒂娅"]},
+                {"name": "control-0-EMER-0", "operators": ["阿米娅","Mon3tr","维什戴尔","魔王","歌蕾蒂娅"]},
+                {"name": "control-0-EMER-1", "operators": ["阿米娅","Mon3tr","薇薇安娜","八幡海铃","戴菲恩"]},
+
+                {"name": "trade-0-LMD-main", "operators": ["蕾缪安","能天使","石英"]},
+                {"name": "trade-0-LMD-standby", "operators": ["德克萨斯","拉普兰德","孑"]},
+                {"name": "trade-0-LMD-EMER", "operators": ["德克萨斯","拉普兰德","孑"]},
+
+                {"name": "trade-0-Orundum-main", "operators": ["蕾缪安","能天使","石英"]},
+                {"name": "trade-0-Orundum-standby", "operators": ["德克萨斯","拉普兰德","孑"]},
+                {"name": "trade-0-Orundum-EMER", "operators": ["德克萨斯","拉普兰德","孑"]},
                 
+                {"name": "trade-1-main", "operators": ["巫恋","柏喙","龙舌兰"]},
+                {"name": "trade-1-standby", "operators": ["巫恋","卡夫卡","龙舌兰"]},
+                {"name": "trade-1-EMER", "operators": ["古米","月见夜","空爆"]},
+
+                {"name": "trade-2-main", "operators": ["但书","摩根","推进之王"]},
+                {"name": "trade-2-standby", "operators": ["但书","孑","泰拉大陆调查团"]},
+                {"name": "trade-2-EMER", "operators": ["奇尔查克","空","慕斯"]},
+
+                {"name": "manu-0-GOLD-main", "operators": ["娜斯提","至简","槐琥"]},
+                {"name": "manu-0-GOLD-standby-0", "operators": ["夜烟","幽灵鲨","安哲拉"]},
+                {"name": "manu-0-GOLD-standby-1", "operators": ["娜斯提","至简","安哲拉"]},
+                {"name": "manu-0-GOLD-EMER", "operators": ["夜烟","幽灵鲨","安哲拉"]},
+
+                {"name": "manu-0-Originium-Shard-main", "operators": ["褐果","至简","槐琥"]},
+                {"name": "manu-0-Originium-Shard-standby-0", "operators": ["地灵","幽灵鲨","安哲拉"]},
+                {"name": "manu-0-Originium-Shard-standby-1", "operators": ["褐果","至简","安哲拉"]},
+                {"name": "manu-0-Originium-Shard-EMER", "operators": ["地灵","幽灵鲨","安哲拉"]},
+
+                {"name": "manu-1-GOLD-main", "operators": ["砾","引星棘刺","苍苔"]},
+                {"name": "manu-1-GOLD-standby-Originium-Shard", "operators": ["娜斯提","乌尔比安","斯卡蒂"]},
+                {"name": "manu-1-GOLD-standby-ALL-GOLD", "operators": ["夜烟","乌尔比安","斯卡蒂"]},
+                {"name": "manu-1-GOLD-EMER-Originium-Shard", "operators": ["娜斯提","乌尔比安","斯卡蒂"]},
+                {"name": "manu-1-GOLD-EMER-ALL-GOLD", "operators": ["夜烟","乌尔比安","斯卡蒂"]},
+
+                {"name": "manu-2-GOLD-main", "operators": ["清流","温蒂","森蚺"]},
+                {"name": "manu-2-GOLD-standby-Originium-Shard", "operators": ["幽灵鲨","乌尔比安","斯卡蒂"]},
+                {"name": "manu-2-GOLD-standby-ALL-GOLD", "operators": ["幽灵鲨","乌尔比安","斯卡蒂"]},
+                {"name": "manu-2-GOLD-EMER-Originium-Shard", "operators": ["泡泡","火神","贝娜"]},
+                {"name": "manu-2-GOLD-EMER-ALL-GOLD", "operators": ["泡泡","火神","贝娜"]}
             ],
             "rooms":{
                 "trading":[
-                    {"product":"LMD", "sort":true, "use_operator_groups": true,
-                        "operators":["trade-EMER-0"]},
-                    {"product":"LMD", "use_operator_groups": true,
-                        "operators":["trade-EMER-1"]}],
+                    {"use_operator_groups": true, "product":"Orundum", "sort":true,
+                        "operators":["trade-0-LMD-EMER"]},
+                    {"use_operator_groups": true, "product":"LMD", "sort":true,
+                        "operators":["trade-1-EMER"]},
+                    {"use_operator_groups": true, "product":"LMD", "sort":true,
+                        "operators":["trade-2-EMER"]}],
                 "control":[
-                    {"use_operator_groups": true,
-                        "operators":["control-EMER-0"]}],
+                    {"use_operator_groups": true, "sort":true,
+                        "operators":["control-0-EMER-0"]}],
                 "manufacture":[
-                    {"product":"Battle Record", "use_operator_groups": true,
-                        "operators":["manu-EXP-standby-0"]},
-                    {"product":"Battle Record", "use_operator_groups": true,
-                        "operators":["manu-EXP-EMER-0"]},
-                    {"product":"Pure Gold", "use_operator_groups": true,
-                        "operators":["manu-GOLD-standby-0"]},
-                    {"product":"Pure Gold", "use_operator_groups": true,
-                        "operators":["manu-GOLD-EMER-0"]}],
+                    {"use_operator_groups": true, "product":"Originium Shard",
+                        "operators":["manu-0-GOLD-EMER"]},
+                    {"use_operator_groups": true, "product":"Pure Gold",
+                        "operators":["manu-1-GOLD-EMER-ALL-GOLD"]},
+                    {"use_operator_groups": true, "product":"Pure Gold",
+                        "operators":["manu-2-GOLD-EMER-ALL-GOLD"]}],
                 "dormitory":[
                     {"sort":true,
                         "operators":["菲亚梅塔","斥罪","戴菲恩","推进之王","摩根"]},
                     {"operators":["巫恋","龙舌兰","但书","清流","温蒂"]},
-                    {"operators":["薇薇安娜","焰尾","承曦格雷伊","远牙","灰毫"]},
-                    {"operators":["砾","引星棘刺","苍苔","野鬃","森蚺"]}],
+                    {"operators":["薇薇安娜","八幡海铃","承曦格雷伊","娜斯提","至简"]},
+                    {"operators":["砾","引星棘刺","苍苔","槐琥","森蚺"]}],
                 "power":[
                     {"operators":["格雷伊"]},
                     {"operators":["烛煌"]},
@@ -62,7 +104,7 @@
             "name":"EMER-02-17:00",
             "description":"配合上一班使用, 在17:00时启动",
             "period": [
-                ["15:16", "23:59"]
+                ["15:46", "23:59"]
             ],
             "drones":{
                 "room":"trading",
@@ -70,31 +112,73 @@
                 "enable":true,
                 "order":"pre"},
             "groups": [
+                {"name": "control-0-main", "operators": ["诗怀雅","斩业星熊","薇薇安娜","八幡海铃","戴菲恩"]},
+                {"name": "control-0-standby-0", "operators": ["诗怀雅","斩业星熊","戴菲恩","魔王","歌蕾蒂娅"]},
+                {"name": "control-0-standby-1", "operators": ["麒麟R夜刀","火龙S黑角","薇薇安娜","八幡海铃","歌蕾蒂娅"]},
+                {"name": "control-0-EMER-0", "operators": ["阿米娅","Mon3tr","维什戴尔","魔王","歌蕾蒂娅"]},
+                {"name": "control-0-EMER-1", "operators": ["阿米娅","Mon3tr","薇薇安娜","八幡海铃","戴菲恩"]},
+
+                {"name": "trade-0-LMD-main", "operators": ["蕾缪安","能天使","石英"]},
+                {"name": "trade-0-LMD-standby", "operators": ["德克萨斯","拉普兰德","孑"]},
+                {"name": "trade-0-LMD-EMER", "operators": ["德克萨斯","拉普兰德","孑"]},
+
+                {"name": "trade-0-Orundum-main", "operators": ["蕾缪安","能天使","石英"]},
+                {"name": "trade-0-Orundum-standby", "operators": ["德克萨斯","拉普兰德","孑"]},
+                {"name": "trade-0-Orundum-EMER", "operators": ["德克萨斯","拉普兰德","孑"]},
                 
+                {"name": "trade-1-main", "operators": ["巫恋","柏喙","龙舌兰"]},
+                {"name": "trade-1-standby", "operators": ["巫恋","卡夫卡","龙舌兰"]},
+                {"name": "trade-1-EMER", "operators": ["古米","月见夜","空爆"]},
+
+                {"name": "trade-2-main", "operators": ["但书","摩根","推进之王"]},
+                {"name": "trade-2-standby", "operators": ["但书","孑","泰拉大陆调查团"]},
+                {"name": "trade-2-EMER", "operators": ["奇尔查克","空","慕斯"]},
+
+                {"name": "manu-0-GOLD-main", "operators": ["娜斯提","至简","槐琥"]},
+                {"name": "manu-0-GOLD-standby-0", "operators": ["夜烟","幽灵鲨","安哲拉"]},
+                {"name": "manu-0-GOLD-standby-1", "operators": ["娜斯提","至简","安哲拉"]},
+                {"name": "manu-0-GOLD-EMER", "operators": ["夜烟","幽灵鲨","安哲拉"]},
+
+                {"name": "manu-0-Originium-Shard-main", "operators": ["褐果","至简","槐琥"]},
+                {"name": "manu-0-Originium-Shard-standby-0", "operators": ["地灵","幽灵鲨","安哲拉"]},
+                {"name": "manu-0-Originium-Shard-standby-1", "operators": ["褐果","至简","安哲拉"]},
+                {"name": "manu-0-Originium-Shard-EMER", "operators": ["地灵","幽灵鲨","安哲拉"]},
+
+                {"name": "manu-1-GOLD-main", "operators": ["砾","引星棘刺","苍苔"]},
+                {"name": "manu-1-GOLD-standby-Originium-Shard", "operators": ["娜斯提","乌尔比安","斯卡蒂"]},
+                {"name": "manu-1-GOLD-standby-ALL-GOLD", "operators": ["夜烟","乌尔比安","斯卡蒂"]},
+                {"name": "manu-1-GOLD-EMER-Originium-Shard", "operators": ["娜斯提","乌尔比安","斯卡蒂"]},
+                {"name": "manu-1-GOLD-EMER-ALL-GOLD", "operators": ["夜烟","乌尔比安","斯卡蒂"]},
+
+                {"name": "manu-2-GOLD-main", "operators": ["清流","温蒂","森蚺"]},
+                {"name": "manu-2-GOLD-standby-Originium-Shard", "operators": ["幽灵鲨","乌尔比安","斯卡蒂"]},
+                {"name": "manu-2-GOLD-standby-ALL-GOLD", "operators": ["幽灵鲨","乌尔比安","斯卡蒂"]},
+                {"name": "manu-2-GOLD-EMER-Originium-Shard", "operators": ["泡泡","火神","贝娜"]},
+                {"name": "manu-2-GOLD-EMER-ALL-GOLD", "operators": ["泡泡","火神","贝娜"]}
             ],
             "rooms":{
                 "trading":[
-                    {"product":"LMD", "sort":true, "use_operator_groups": true,
-                        "operators":["trade-standby-0"]},
-                    {"product":"LMD", "use_operator_groups": true,
-                        "operators":["trade-main-1"]}],
+                    {"use_operator_groups": true, "product":"Orundum", "sort":true,
+                        "operators":["trade-0-LMD-EMER"]},
+                    {"use_operator_groups": true, "product":"LMD", "sort":true,
+                        "operators":["trade-1-main"]},
+                    {"use_operator_groups": true, "product":"LMD", "sort":true,
+                        "operators":["trade-2-main"]}],
                 "control":[
-                    {"use_operator_groups": true,
-                        "operators":["control-EMER-1"]}],
+                    {"use_operator_groups": true, "sort":true,
+                        "operators":["control-0-EMER-1"]}],
                 "manufacture":[
-                    {"product":"Battle Record", "use_operator_groups": true,
-                        "operators":["manu-EXP-main-0"]},
-                    {"product":"Battle Record", "use_operator_groups": true,
-                        "operators":["manu-EXP-EMER-0"]},
-                    {"product":"Pure Gold", "use_operator_groups": true,
-                        "operators":["manu-GOLD-main-0"]},
-                    {"product":"Pure Gold", "use_operator_groups": true,
-                        "operators":["manu-GOLD-main-1"]}],
+                    {"use_operator_groups": true, "product":"Originium Shard",
+                        "operators":["manu-0-GOLD-main"]},
+                    {"use_operator_groups": true, "product":"Pure Gold",
+                        "operators":["manu-1-GOLD-main"]},
+                    {"use_operator_groups": true, "product":"Pure Gold",
+                        "operators":["manu-2-GOLD-main"]}],
                 "dormitory":[
                     {"sort":true,
                         "operators":["菲亚梅塔","缪尔赛思","柏喙","麒麟R夜刀","火龙S黑角"]},
                     {"operators":["诗怀雅","斩业星熊","伊内丝","晓歌","歌蕾蒂娅"]},
-                    {"operators":["断罪者","至简","槐琥","酒神","斑点"]},
+                    {"operators":["能天使","蕾缪安","石英","多萝西","赫默"]},
                     {"operators":["澄闪","斯卡蒂","乌尔比安","幽灵鲨","安哲拉"]}],
                 "power":[
                     {"operators":["格雷伊"]},
@@ -111,8 +195,8 @@
     ],
     "scheduleType":{
         "planTimes":2,
-        "trading":2,
-        "manufacture":4,
+        "trading":3,
+        "manufacture":3,
         "power":3,
         "dormitory":4}
 }

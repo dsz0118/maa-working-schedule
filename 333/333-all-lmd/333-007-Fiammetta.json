@@ -1,12 +1,12 @@
 {
     "author":"GitHub@dsz0118",
-    "description":"专门用于压榨肥鸭的 153 换班表，依次轮换 但书/巫恋/龙舌兰 来007最好の菲亚梅塔小姐",
+    "description":"专门用于压榨肥鸭的 333纯钱 排班表，依次轮换 但书/巫恋/龙舌兰 来007最好の菲亚梅塔小姐",
     "title":"007-Fiammetta-Trade",
     "buildingType":333,
     "plans":[
         {
-            "name":"007-01班-巫恋",
-            "description":"09:00, 肥鸭007巫恋, 主力全更新, 给赤金加速",
+            "name":"007-01班-纯钱-巫恋",
+            "description":"09:00, 肥鸭007巫恋, 全主力, 不用无人机",
             "period": [
                 ["05:01", "13:00"]
             ],
@@ -97,8 +97,8 @@
                 
         },
         {
-            "name":"007-02班-龙舌兰",
-            "description":"17:00, 肥鸭007龙舌兰, 休息材料组/换班组, 给赤金加速",
+            "name":"007-02班-纯钱-龙舌兰",
+            "description":"17:00, 肥鸭007龙舌兰, 全主力, 无人机加速龙门币",
             "period": [
               ["13:01", "21:00"]
             ],
@@ -194,7 +194,7 @@
         },
         {
             "name":"007-03班-但书",
-            "description":"01:00, 肥鸭007但书, 部分组大对照, 加速贸易站",
+            "description":"01:00, 肥鸭007但书, 休息会客室, 无人机加速赤金",
             "period": [
                 ["21:01", "23:59"],
                 ["00:00", "5:00"]
@@ -256,7 +256,7 @@
             "rooms":{
                 "trading":[
                     {"use_operator_groups": true, "product":"Orundum", "sort":true,
-                        "operators":["trade-0-Orundum-main"]},
+                        "operators":["trade-0-LMD-main"]},
                     {"use_operator_groups": true, "product":"LMD", "sort":true,
                         "operators":["trade-1-main"]},
                     {"use_operator_groups": true, "product":"LMD", "sort":true,
@@ -266,7 +266,7 @@
                         "operators":["control-0-main"]}],
                 "manufacture":[
                     {"use_operator_groups": true, "product":"Originium Shard",
-                        "operators":["manu-0-Originium-Shard-main"]},
+                        "operators":["manu-0-GOLD-main"]},
                     {"use_operator_groups": true, "product":"Pure Gold",
                         "operators":["manu-1-GOLD-main"]},
                     {"use_operator_groups": true, "product":"Pure Gold",
@@ -276,7 +276,7 @@
                         "operators":["菲亚梅塔","伊内丝","晓歌","年","九色鹿"]},
                     {"skip": true},
                     {"skip": true},
-                    {"operators":["多萝西","娜斯提","赫默","白面鸮"]}],
+                    {"operators":["多萝西","赫默","白面鸮"]}],
                 "power":[
                     {"operators":["缪尔赛思"]},
                     {"operators":["承曦格雷伊"]},

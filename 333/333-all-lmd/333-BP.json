@@ -1,12 +1,12 @@
 {
     "author":"GitHub@dsz0118",
-    "description":"用于填补007肥鸭中龙门币/赤金/经验书的换班表",
+    "description":"007肥鸭计划中所有功能室的统一休息排班",
     "title":"BP-X-Groups",
     "buildingType":333,
     "plans":[
         {
-            "name":"BP-01-红松林/苍苔组",
-            "description":"01:45, 休息: 红松林/斥罪/会议室/裁缝组/苍苔组",
+            "name":"BP-01-蕾乐贸易组/娜斯提散件组/苍苔组",
+            "description":"01:45, 主要休息: 部分中枢/斥罪/蕾乐贸易组/娜斯提散件组/苍苔组",
             "period": [
                 ["01:00", "03:30"]
             ],
@@ -58,7 +58,7 @@
             "rooms":{
                 "trading":[
                     {"use_operator_groups": true, "product":"Orundum", "sort":true,
-                        "operators":["trade-0-Orundum-standby"]},
+                        "operators":["trade-0-LMD-standby"]},
                     {"use_operator_groups": true, "product":"LMD", "sort":true,
                         "operators":["trade-1-standby"]},
                     {"use_operator_groups": true, "product":"LMD", "sort":true,
@@ -68,16 +68,16 @@
                         "operators":["control-0-standby-0"]}],
                 "manufacture":[
                     {"use_operator_groups": true, "product":"Originium Shard",
-                        "operators":["manu-0-Originium-Shard-standby-0"]},
+                        "operators":["manu-0-GOLD-standby-0"]},
                     {"use_operator_groups": true, "product":"Pure Gold",
-                        "operators":["manu-1-GOLD-standby-Originium-Shard"]},
+                        "operators":["manu-1-GOLD-standby-ALL-GOLD"]},
                     {"use_operator_groups": true, "product":"Pure Gold",
                         "operators":["manu-2-GOLD-main"]}],
                 "dormitory":[
                     {"sort":true,
                         "operators":["菲亚梅塔","斥罪","至简","伊内丝","晓歌"]},
                     {"operators":["流明","砾","引星棘刺","苍苔","八幡海铃"]},
-                    {"operators":["杜林","能天使","褐果","蕾缪安","石英"]},
+                    {"operators":["杜林","能天使","娜斯提","蕾缪安","石英"]},
                     {"operators":["多萝西","白面鸮","赫默","澄闪","薇薇安娜"]}],
                 "power":[
                     {"operators":["缪尔赛思"]},
@@ -92,8 +92,8 @@
                     {"operators":["梅尔"]}]}
         },
         {
-            "name":"BP-02-槐琥组/自动化",
-            "description":"05:15, 休息 中枢/推王组/槐琥组/自动化/发电站",
+            "name":"BP-02-推王组/自动化/发电站",
+            "description":"05:15, 主要休息 部分中枢/推王组/自动化/发电站",
             "period": [
                 ["03:31", "09:00"]
             ],
@@ -150,7 +150,7 @@
             "rooms":{
                 "trading":[
                     {"use_operator_groups": true, "product":"Orundum", "sort":true,
-                        "operators":["trade-0-Orundum-main"]},
+                        "operators":["trade-0-LMD-main"]},
                     {"use_operator_groups": true, "product":"LMD", "sort":true,
                         "operators":["trade-1-standby"]},
                     {"use_operator_groups": true, "product":"LMD", "sort":true,
@@ -160,11 +160,11 @@
                         "operators":["control-0-standby-1"]}],
                 "manufacture":[
                     {"use_operator_groups": true, "product":"Originium Shard",
-                        "operators":["manu-0-Originium-Shard-standby-1"]},
+                        "operators":["manu-0-GOLD-standby-1"]},
                     {"use_operator_groups": true, "product":"Pure Gold",
                         "operators":["manu-1-GOLD-main"]},
                     {"use_operator_groups": true, "product":"Pure Gold",
-                        "operators":["manu-2-GOLD-standby-Originium-Shard"]}],
+                        "operators":["manu-2-GOLD-standby-ALL-GOLD"]}],
                 "dormitory":[
                     {"sort":true,
                         "operators":["菲亚梅塔","斥罪","缪尔赛思","承曦格雷伊","年"]},

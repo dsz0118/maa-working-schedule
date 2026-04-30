@@ -98,8 +98,8 @@
                 ["03:31", "09:00"]
             ],
             "drones":{
-                "room":"manufacture",
-                "index":1,
+                "room":"trading",
+                "index":2,
                 "enable":true,
                 "order":"pre"},
             "groups": [

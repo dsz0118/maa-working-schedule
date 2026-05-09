@@ -162,8 +162,8 @@
                 "target":"但书",
                 "order":"pre"},
             "drones":{
-                "room":"manufacture",
-                "index":3,
+                "room":"trading",
+                "index":1,
                 "enable":true,
                 "order":"pre"},
             "groups": [

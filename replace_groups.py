@@ -8,7 +8,7 @@ from typing import Any
 # ==================== 配置区域 ====================
 
 # 需要处理的文件夹路径
-FOLDER_PATH = "/Users/xiaomo/Code/Individual/maa-working-schedule/243"
+FOLDER_PATH = "/Users/xiaomo/Code/Individual/maa-working-schedule/333/333-all-lmd"
 
 # 公共 groups 配置文件名
 GROUPS_FILE_NAME = "config.json"

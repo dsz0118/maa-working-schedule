@@ -2,13 +2,13 @@ import json
 import shutil
 from datetime import datetime
 from pathlib import Path
-from typing import Any
+from typing import Any, Optional
 
 
 # ==================== 配置区域 ====================
 
 # 需要处理的文件夹路径
-FOLDER_PATH = "/Users/xiaomo/Code/Individual/maa-working-schedule/333/333-all-lmd"
+FOLDER_PATH = "/Users/xiaomo/Code/Individual/maa-working-schedule/243"
 
 # 公共 groups 配置文件名
 GROUPS_FILE_NAME = "config.json"
@@ -208,7 +208,7 @@ def format_operator_object(
 def format_object(
     value: dict[str, Any],
     indent_level: int,
-    key_name: str | None = None
+    key_name: Optional[str] = None
 ) -> str:
     """格式化 JSON 对象。"""
     if not value:
@@ -317,7 +317,7 @@ def format_period_array(
 def format_array(
     value: list[Any],
     indent_level: int,
-    key_name: str | None
+    key_name: Optional[str]
 ) -> str:
     """格式化 JSON 数组。"""
     if not value:
@@ -373,7 +373,7 @@ def format_array(
 def format_json(
     value: Any,
     indent_level: int = 0,
-    key_name: str | None = None
+    key_name: Optional[str] = None
 ) -> str:
     """
     自定义格式化 JSON。

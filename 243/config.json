@@ -1,27 +1,21 @@
 {
     "groups": [
-        {"name": "control-main-0", "operators": ["诗怀雅","斩业星熊","薇薇安娜","焰尾","戴菲恩"]},
-        {"name": "control-standby-0", "operators": ["诗怀雅","斩业星熊","戴菲恩","八幡海铃","歌蕾蒂娅"]},
-        {"name": "control-standby-1", "operators": ["麒麟R夜刀","火龙S黑角","薇薇安娜","焰尾","歌蕾蒂娅"]},
-        {"name": "control-EMER-0", "operators": ["阿米娅","Mon3tr","魔王","八幡海铃","歌蕾蒂娅"]},
-        {"name": "control-EMER-1", "operators": ["阿米娅","Mon3tr","薇薇安娜","焰尾","戴菲恩"]},
+        {"name": "control-main-0", "operators": ["诗怀雅","斩业星熊","薇薇安娜","焰尾","八幡海铃"]},
+        {"name": "control-standby-0", "operators": ["诗怀雅","斩业星熊","戴菲恩","焰狐龙梓兰","歌蕾蒂娅"]},
+        {"name": "control-standby-1", "operators": ["阿斯卡纶","焰尾","薇薇安娜","八幡海铃","歌蕾蒂娅"]},
 
         {"name": "trade-main-0", "operators": ["巫恋","柏喙","龙舌兰"]},    
         {"name": "trade-standby-0", "operators": ["巫恋","卡夫卡","龙舌兰"]},
-        {"name": "trade-EMER-0", "operators": ["能天使","蕾缪安","可露希尔"]},
 
-        {"name": "trade-main-1", "operators": ["但书","摩根","推进之王"]},
-        {"name": "trade-standby-1", "operators": ["但书","孑","泰拉大陆调查团"]},
-        {"name": "trade-EMER-1", "operators": ["孑","拉普兰德","德克萨斯"]},
+        {"name": "trade-main-1", "operators": ["但书","贝洛内","伺夜"]},
+        {"name": "trade-standby-1", "operators": ["但书","摩根","推进之王"]},
 
         {"name": "manu-EXP-main-0", "operators": ["远牙","灰毫","野鬃"]},
         {"name": "manu-EXP-main-1", "operators": ["断罪者","槐琥","至简"]},
-        {"name": "manu-EXP-standby-0", "operators": ["酒神","斯卡蒂","乌尔比安"]},
-        {"name": "manu-EXP-EMER-0", "operators": ["红云","稀音","圣约送葬人"]},
+        {"name": "manu-EXP-standby", "operators": ["酒神","斯卡蒂","乌尔比安"]},
         
         {"name": "manu-GOLD-main-0", "operators": ["砾","引星棘刺","苍苔"]},
         {"name": "manu-GOLD-main-1", "operators": ["清流","温蒂","森蚺"]},
-        {"name": "manu-GOLD-standby-0", "operators": ["娜斯提","幽灵鲨","安哲拉"]},
-        {"name": "manu-GOLD-EMER-0", "operators": ["泡泡","火神","贝娜"]}
+        {"name": "manu-GOLD-standby", "operators": ["娜斯提","幽灵鲨","安哲拉"]}
     ]
 }

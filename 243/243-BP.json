@@ -6,25 +6,19 @@
     "plans":[
         {
             "name":"BP-01-红松林/苍苔组",
-            "description":"01:45, 休息: 红松林/斥罪/会议室/裁缝组/苍苔组",
+            "description":"01:45, 休息: 红松林/苍苔组/叙拉古组/凯尔希·思衡托精干组, 不使用无人机",
             "period":[
                 ["01:00", "03:30"]
             ],
             "groups":[
                 {"name":"control-main-0",
-                    "operators":["诗怀雅","斩业星熊","薇薇安娜","焰尾","戴菲恩"]
+                    "operators":["诗怀雅","斩业星熊","薇薇安娜","焰尾","八幡海铃"]
                 },
                 {"name":"control-standby-0",
-                    "operators":["诗怀雅","斩业星熊","戴菲恩","八幡海铃","歌蕾蒂娅"]
+                    "operators":["诗怀雅","斩业星熊","戴菲恩","焰狐龙梓兰","歌蕾蒂娅"]
                 },
                 {"name":"control-standby-1",
-                    "operators":["麒麟R夜刀","火龙S黑角","薇薇安娜","焰尾","歌蕾蒂娅"]
-                },
-                {"name":"control-EMER-0",
-                    "operators":["阿米娅","Mon3tr","魔王","八幡海铃","歌蕾蒂娅"]
-                },
-                {"name":"control-EMER-1",
-                    "operators":["阿米娅","Mon3tr","薇薇安娜","焰尾","戴菲恩"]
+                    "operators":["阿斯卡纶","焰尾","薇薇安娜","八幡海铃","歌蕾蒂娅"]
                 },
                 {"name":"trade-main-0",
                     "operators":["巫恋","柏喙","龙舌兰"]
@@ -32,17 +26,11 @@
                 {"name":"trade-standby-0",
                     "operators":["巫恋","卡夫卡","龙舌兰"]
                 },
-                {"name":"trade-EMER-0",
-                    "operators":["能天使","蕾缪安","可露希尔"]
-                },
                 {"name":"trade-main-1",
-                    "operators":["但书","摩根","推进之王"]
+                    "operators":["但书","贝洛内","伺夜"]
                 },
                 {"name":"trade-standby-1",
-                    "operators":["但书","孑","泰拉大陆调查团"]
-                },
-                {"name":"trade-EMER-1",
-                    "operators":["孑","拉普兰德","德克萨斯"]
+                    "operators":["但书","摩根","推进之王"]
                 },
                 {"name":"manu-EXP-main-0",
                     "operators":["远牙","灰毫","野鬃"]
@@ -50,11 +38,8 @@
                 {"name":"manu-EXP-main-1",
                     "operators":["断罪者","槐琥","至简"]
                 },
-                {"name":"manu-EXP-standby-0",
+                {"name":"manu-EXP-standby",
                     "operators":["酒神","斯卡蒂","乌尔比安"]
-                },
-                {"name":"manu-EXP-EMER-0",
-                    "operators":["红云","稀音","圣约送葬人"]
                 },
                 {"name":"manu-GOLD-main-0",
                     "operators":["砾","引星棘刺","苍苔"]
@@ -62,20 +47,17 @@
                 {"name":"manu-GOLD-main-1",
                     "operators":["清流","温蒂","森蚺"]
                 },
-                {"name":"manu-GOLD-standby-0",
+                {"name":"manu-GOLD-standby",
                     "operators":["娜斯提","幽灵鲨","安哲拉"]
-                },
-                {"name":"manu-GOLD-EMER-0",
-                    "operators":["泡泡","火神","贝娜"]
                 }
             ],
             "rooms":{
                 "trading":[
                     {"use_operator_groups":true,"product":"LMD","sort":true,
-                        "operators":["trade-standby-0"]
+                        "operators":["trade-main-0"]
                     },
                     {"use_operator_groups":true,"product":"LMD",
-                        "operators":["trade-main-1"]
+                        "operators":["trade-standby-1"]
                     }
                 ],
                 "control":[
@@ -85,13 +67,13 @@
                 ],
                 "manufacture":[
                     {"use_operator_groups":true,"product":"Battle Record",
-                        "operators":["manu-EXP-standby-0"]
+                        "operators":["manu-EXP-standby"]
                     },
                     {"use_operator_groups":true,"product":"Battle Record",
                         "operators":["manu-EXP-main-1"]
                     },
                     {"use_operator_groups":true,"product":"Pure Gold",
-                        "operators":["manu-GOLD-standby-0"]
+                        "operators":["manu-GOLD-standby"]
                     },
                     {"use_operator_groups":true,"product":"Pure Gold",
                         "operators":["manu-GOLD-main-1"]
@@ -99,16 +81,16 @@
                 ],
                 "dormitory":[
                     {"sort":true,
-                        "operators":["菲亚梅塔","凯尔希·思衡托","烛煌","伊内丝","晓歌"]
+                        "operators":["菲亚梅塔","多萝西","白面鸮","赫默","远牙"]
                     },
-                    {
-                        "operators":["流明","砾","引星棘刺","苍苔","野鬃"]
+                    {"sort":true,
+                        "operators":["流明","烛煌","凯尔希·思衡托","贝洛内","伺夜"]
                     },
-                    {
-                        "operators":["杜林","焰尾","薇薇安娜","远牙","灰毫"]
+                    {"sort":true,
+                        "operators":["杜林","引星棘刺","苍苔","野鬃","灰毫"]
                     },
-                    {
-                        "operators":["多萝西","白面鸮","赫默","柏喙","年"]
+                    {"sort":true,
+                        "operators":["冰酿","八幡海铃","薇薇安娜","焰尾","砾"]
                     }
                 ],
                 "power":[
@@ -141,7 +123,7 @@
         },
         {
             "name":"BP-02-槐琥组/自动化",
-            "description":"05:15, 休息 中枢/推王组/槐琥组/自动化/发电站",
+            "description":"05:15, 休息 槐琥组/自动化/裁缝/会客室/发电站, 无人机加速赤金",
             "period":[
                 ["03:31", "09:00"]
             ],
@@ -153,19 +135,13 @@
             },
             "groups":[
                 {"name":"control-main-0",
-                    "operators":["诗怀雅","斩业星熊","薇薇安娜","焰尾","戴菲恩"]
+                    "operators":["诗怀雅","斩业星熊","薇薇安娜","焰尾","八幡海铃"]
                 },
                 {"name":"control-standby-0",
-                    "operators":["诗怀雅","斩业星熊","戴菲恩","八幡海铃","歌蕾蒂娅"]
+                    "operators":["诗怀雅","斩业星熊","戴菲恩","焰狐龙梓兰","歌蕾蒂娅"]
                 },
                 {"name":"control-standby-1",
-                    "operators":["麒麟R夜刀","火龙S黑角","薇薇安娜","焰尾","歌蕾蒂娅"]
-                },
-                {"name":"control-EMER-0",
-                    "operators":["阿米娅","Mon3tr","魔王","八幡海铃","歌蕾蒂娅"]
-                },
-                {"name":"control-EMER-1",
-                    "operators":["阿米娅","Mon3tr","薇薇安娜","焰尾","戴菲恩"]
+                    "operators":["阿斯卡纶","焰尾","薇薇安娜","八幡海铃","歌蕾蒂娅"]
                 },
                 {"name":"trade-main-0",
                     "operators":["巫恋","柏喙","龙舌兰"]
@@ -173,17 +149,11 @@
                 {"name":"trade-standby-0",
                     "operators":["巫恋","卡夫卡","龙舌兰"]
                 },
-                {"name":"trade-EMER-0",
-                    "operators":["能天使","蕾缪安","可露希尔"]
-                },
                 {"name":"trade-main-1",
-                    "operators":["但书","摩根","推进之王"]
+                    "operators":["但书","贝洛内","伺夜"]
                 },
                 {"name":"trade-standby-1",
-                    "operators":["但书","孑","泰拉大陆调查团"]
-                },
-                {"name":"trade-EMER-1",
-                    "operators":["孑","拉普兰德","德克萨斯"]
+                    "operators":["但书","摩根","推进之王"]
                 },
                 {"name":"manu-EXP-main-0",
                     "operators":["远牙","灰毫","野鬃"]
@@ -191,11 +161,8 @@
                 {"name":"manu-EXP-main-1",
                     "operators":["断罪者","槐琥","至简"]
                 },
-                {"name":"manu-EXP-standby-0",
+                {"name":"manu-EXP-standby",
                     "operators":["酒神","斯卡蒂","乌尔比安"]
-                },
-                {"name":"manu-EXP-EMER-0",
-                    "operators":["红云","稀音","圣约送葬人"]
                 },
                 {"name":"manu-GOLD-main-0",
                     "operators":["砾","引星棘刺","苍苔"]
@@ -203,20 +170,17 @@
                 {"name":"manu-GOLD-main-1",
                     "operators":["清流","温蒂","森蚺"]
                 },
-                {"name":"manu-GOLD-standby-0",
+                {"name":"manu-GOLD-standby",
                     "operators":["娜斯提","幽灵鲨","安哲拉"]
-                },
-                {"name":"manu-GOLD-EMER-0",
-                    "operators":["泡泡","火神","贝娜"]
                 }
             ],
             "rooms":{
                 "trading":[
                     {"use_operator_groups":true,"product":"LMD","sort":true,
-                        "operators":["trade-main-0"]
+                        "operators":["trade-standby-0"]
                     },
                     {"use_operator_groups":true,"product":"LMD",
-                        "operators":["trade-standby-1"]
+                        "operators":["trade-main-1"]
                     }
                 ],
                 "control":[
@@ -229,27 +193,27 @@
                         "operators":["manu-EXP-main-0"]
                     },
                     {"use_operator_groups":true,"product":"Battle Record",
-                        "operators":["manu-EXP-standby-0"]
+                        "operators":["manu-EXP-standby"]
                     },
                     {"use_operator_groups":true,"product":"Pure Gold",
                         "operators":["manu-GOLD-main-0"]
                     },
                     {"use_operator_groups":true,"product":"Pure Gold",
-                        "operators":["manu-GOLD-standby-0"]
+                        "operators":["manu-GOLD-standby"]
                     }
                 ],
                 "dormitory":[
                     {"sort":true,
-                        "operators":["菲亚梅塔","凯尔希·思衡托","缪尔赛思","承曦格雷伊","年"]
+                        "operators":["菲亚梅塔","多萝西","白面鸮","赫默","缪尔赛思"]
                     },
-                    {
-                        "operators":["杜林","清流","温蒂","森蚺","摩根"]
+                    {"sort":true,
+                        "operators":["流明","承曦格雷伊","伊内丝","晓歌","柏喙"]
                     },
-                    {
-                        "operators":["冰酿","断罪者","槐琥","至简","推进之王"]
+                    {"sort":true,
+                        "operators":["杜林","诗怀雅","斩业星熊","槐琥","断罪者"]
                     },
-                    {
-                        "operators":["诗怀雅","斩业星熊","戴菲恩","多萝西","白面鸮"]
+                    {"sort":true,
+                        "operators":["冰酿","至简","清流","温蒂","森蚺"]
                     }
                 ],
                 "power":[
@@ -265,7 +229,7 @@
                 ],
                 "meeting":[
                     {"sort":true,
-                        "operators":["伊内丝","晓歌"]
+                        "operators":["提丰","凛视"]
                     }
                 ],
                 "hire":[

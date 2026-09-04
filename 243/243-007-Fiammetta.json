@@ -5,10 +5,138 @@
     "buildingType":243,
     "plans":[
         {
-            "name":"007-01-巫恋",
-            "description":"09:00, 肥鸭007巫恋, 主力全更新, 不使用无人机",
+            "name":"007-01-龙舌兰",
+            "description":"肥鸭007龙舌兰, 无人机给龙舌兰组加速, 后接BP班",
             "period":[
                 ["05:01", "13:00"]
+            ],
+            "Fiammetta":{
+                "enable":true,
+                "target":"龙舌兰",
+                "order":"pre"
+            },
+            "drones":{
+                "room":"trading",
+                "index":1,
+                "enable":true,
+                "order":"pre"
+            },
+            "groups":[
+                {"name":"control-main-0",
+                    "operators":["诗怀雅","斩业星熊","薇薇安娜","焰尾","八幡海铃"]
+                },
+                {"name":"control-standby-0",
+                    "operators":["诗怀雅","斩业星熊","戴菲恩","焰狐龙梓兰","歌蕾蒂娅"]
+                },
+                {"name":"control-standby-1",
+                    "operators":["阿斯卡纶","焰尾","薇薇安娜","八幡海铃","歌蕾蒂娅"]
+                },
+                {"name":"trade-main-0",
+                    "operators":["巫恋","柏喙","龙舌兰"]
+                },
+                {"name":"trade-standby-0",
+                    "operators":["巫恋","卡夫卡","龙舌兰"]
+                },
+                {"name":"trade-main-1",
+                    "operators":["但书","贝洛内","伺夜"]
+                },
+                {"name":"trade-standby-1",
+                    "operators":["但书","摩根","推进之王"]
+                },
+                {"name":"manu-EXP-main-0",
+                    "operators":["远牙","灰毫","野鬃"]
+                },
+                {"name":"manu-EXP-main-1",
+                    "operators":["断罪者","槐琥","至简"]
+                },
+                {"name":"manu-EXP-standby",
+                    "operators":["酒神","斯卡蒂","乌尔比安"]
+                },
+                {"name":"manu-GOLD-main-0",
+                    "operators":["砾","引星棘刺","苍苔"]
+                },
+                {"name":"manu-GOLD-main-1",
+                    "operators":["清流","温蒂","森蚺"]
+                },
+                {"name":"manu-GOLD-standby",
+                    "operators":["娜斯提","幽灵鲨","安哲拉"]
+                }
+            ],
+            "rooms":{
+                "trading":[
+                    {"use_operator_groups":true,"product":"LMD","sort":true,
+                        "operators":["trade-main-0"]
+                    },
+                    {"use_operator_groups":true,"product":"LMD",
+                        "operators":["trade-main-1"]
+                    }
+                ],
+                "control":[
+                    {"use_operator_groups":true,
+                        "operators":["control-main-0"]
+                    }
+                ],
+                "manufacture":[
+                    {"use_operator_groups":true,"product":"Battle Record",
+                        "operators":["manu-EXP-main-0"]
+                    },
+                    {"use_operator_groups":true,"product":"Battle Record",
+                        "operators":["manu-EXP-main-1"]
+                    },
+                    {"use_operator_groups":true,"product":"Pure Gold",
+                        "operators":["manu-GOLD-main-0"]
+                    },
+                    {"use_operator_groups":true,"product":"Pure Gold",
+                        "operators":["manu-GOLD-main-1"]
+                    }
+                ],
+                "dormitory":[
+                    {"sort":true,
+                        "operators":["菲亚梅塔","真言","多萝西","白面鸮","赫默"]
+                    },
+                    {"sort":true,
+                        "operators":["电弧","娜斯提","九色鹿","年","白铁"]
+                    },
+                    {"sort":true,
+                        "operators":["煌","","","",""]
+                    },
+                    {"sort":true,
+                        "operators":["迷迭香","","","",""]
+                    }
+                ],
+                "power":[
+                    {
+                        "operators":["缪尔赛思"]
+                    },
+                    {
+                        "operators":["承曦格雷伊"]
+                    },
+                    {
+                        "operators":["烛煌"]
+                    }
+                ],
+                "meeting":[
+                    {"sort":true,
+                        "operators":["提丰","凛视"]
+                    }
+                ],
+                "hire":[
+                    {
+                        "operators":["凯尔希·思衡托"]
+                    }
+                ],
+                "processing":[
+                    {
+                        "operators":["梅尔"]
+                    }
+                ]
+            }
+        },
+        {
+            "name":"007-02-巫恋",
+            "description":"肥鸭007巫恋, 主力全更新, 不使用无人机",
+            "period":[
+                ["13:01", "21:00"]
             ],
             "Fiammetta":{
                 "enable":true,
@@ -127,10 +255,11 @@
             }
         },
         {
-            "name":"007-02-但书",
-            "description":"17:00, 肥鸭007但书, 无人机给龙舌兰组加速",
+            "name":"007-03-但书",
+            "description":"肥鸭007但书, 无人机给龙舌兰组加速",
             "period":[
-                ["13:01", "21:00"]
+                ["21:01", "23:59"],
+                ["00:00", "5:00"]
             ],
             "Fiammetta":{
                 "enable":true,
@@ -240,135 +369,6 @@
                 "meeting":[
                     {"sort":true,
                         "operators":["伊内丝","晓歌"]
-                    }
-                ],
-                "hire":[
-                    {
-                        "operators":["凯尔希·思衡托"]
-                    }
-                ],
-                "processing":[
-                    {
-                        "operators":["梅尔"]
-                    }
-                ]
-            }
-        },
-        {
-            "name":"007-03-龙舌兰",
-            "description":"01:00, 肥鸭007龙舌兰, 无人机给龙舌兰组加速",
-            "period":[
-                ["21:01", "23:59"],
-                ["00:00", "5:00"]
-            ],
-            "Fiammetta":{
-                "enable":true,
-                "target":"龙舌兰",
-                "order":"pre"
-            },
-            "drones":{
-                "room":"trading",
-                "index":1,
-                "enable":true,
-                "order":"pre"
-            },
-            "groups":[
-                {"name":"control-main-0",
-                    "operators":["诗怀雅","斩业星熊","薇薇安娜","焰尾","八幡海铃"]
-                },
-                {"name":"control-standby-0",
-                    "operators":["诗怀雅","斩业星熊","戴菲恩","焰狐龙梓兰","歌蕾蒂娅"]
-                },
-                {"name":"control-standby-1",
-                    "operators":["阿斯卡纶","焰尾","薇薇安娜","八幡海铃","歌蕾蒂娅"]
-                },
-                {"name":"trade-main-0",
-                    "operators":["巫恋","柏喙","龙舌兰"]
-                },
-                {"name":"trade-standby-0",
-                    "operators":["巫恋","卡夫卡","龙舌兰"]
-                },
-                {"name":"trade-main-1",
-                    "operators":["但书","贝洛内","伺夜"]
-                },
-                {"name":"trade-standby-1",
-                    "operators":["但书","摩根","推进之王"]
-                },
-                {"name":"manu-EXP-main-0",
-                    "operators":["远牙","灰毫","野鬃"]
-                },
-                {"name":"manu-EXP-main-1",
-                    "operators":["断罪者","槐琥","至简"]
-                },
-                {"name":"manu-EXP-standby",
-                    "operators":["酒神","斯卡蒂","乌尔比安"]
-                },
-                {"name":"manu-GOLD-main-0",
-                    "operators":["砾","引星棘刺","苍苔"]
-                },
-                {"name":"manu-GOLD-main-1",
-                    "operators":["清流","温蒂","森蚺"]
-                },
-                {"name":"manu-GOLD-standby",
-                    "operators":["娜斯提","幽灵鲨","安哲拉"]
-                }
-            ],
-            "rooms":{
-                "trading":[
-                    {"use_operator_groups":true,"product":"LMD","sort":true,
-                        "operators":["trade-main-0"]
-                    },
-                    {"use_operator_groups":true,"product":"LMD",
-                        "operators":["trade-main-1"]
-                    }
-                ],
-                "control":[
-                    {"use_operator_groups":true,
-                        "operators":["control-main-0"]
-                    }
-                ],
-                "manufacture":[
-                    {"use_operator_groups":true,"product":"Battle Record",
-                        "operators":["manu-EXP-main-0"]
-                    },
-                    {"use_operator_groups":true,"product":"Battle Record",
-                        "operators":["manu-EXP-main-1"]
-                    },
-                    {"use_operator_groups":true,"product":"Pure Gold",
-                        "operators":["manu-GOLD-main-0"]
-                    },
-                    {"use_operator_groups":true,"product":"Pure Gold",
-                        "operators":["manu-GOLD-main-1"]
-                    }
-                ],
-                "dormitory":[
-                    {"sort":true,
-                        "operators":["菲亚梅塔","真言","多萝西","白面鸮","赫默"]
-                    },
-                    {"sort":true,
-                        "operators":["电弧","娜斯提","九色鹿","年","白铁"]
-                    },
-                    {"sort":true,
-                        "operators":["煌","","","",""]
-                    },
-                    {"sort":true,
-                        "operators":["迷迭香","","","",""]
-                    }
-                ],
-                "power":[
-                    {
-                        "operators":["缪尔赛思"]
-                    },
-                    {
-                        "operators":["承曦格雷伊"]
-                    },
-                    {
-                        "operators":["烛煌"]
-                    }
-                ],
-                "meeting":[
-                    {"sort":true,
-                        "operators":["提丰","凛视"]
                     }
                 ],
                 "hire":[

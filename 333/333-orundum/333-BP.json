@@ -6,43 +6,33 @@
     "plans":[
         {
             "name":"BP-01-搓玉-蕾乐贸易组/褐果散件组/苍苔组",
-            "description":"01:45, 主要休息: 部分中枢/凯尔希·思衡托/蕾乐贸易组/褐果散件组/苍苔组, 不使用无人机",
+            "description":"01:30/09:30/17:30, 主要休息: 部分中枢/凯尔希·思衡托/蕾乐贸易组/褐果散件组/苍苔组, 不使用无人机",
             "period":[
-                ["01:00", "03:30"]
+                ["01:00", "03:22"],
+                ["09:00", "11:22"],
+                ["17:00", "19:22"]
             ],
+            "drones":{
+                "room":"manufacture",
+                "index":3,
+                "enable":true,
+                "order":"pre"
+            },
             "groups":[
                 {"name":"control-0-main",
                     "operators":["诗怀雅","斩业星熊","薇薇安娜","八幡海铃","戴菲恩"]
                 },
                 {"name":"control-0-standby-0",
-                    "operators":["诗怀雅","斩业星熊","戴菲恩","焰狐龙梓兰","歌蕾蒂娅"]
+                    "operators":["诗怀雅","斩业星熊","魔王","八幡海铃","歌蕾蒂娅"]
                 },
                 {"name":"control-0-standby-1",
-                    "operators":["麒麟R夜刀","火龙S黑角","薇薇安娜","八幡海铃","歌蕾蒂娅"]
-                },
-                {"name":"control-0-EMER-0",
-                    "operators":["麒麟R夜刀","火龙S黑角","焰狐龙梓兰","魔王","歌蕾蒂娅"]
-                },
-                {"name":"control-0-EMER-1",
-                    "operators":["麒麟R夜刀","火龙S黑角","薇薇安娜","八幡海铃","戴菲恩"]
-                },
-                {"name":"trade-0-LMD-main",
-                    "operators":["蕾缪安","能天使","可露希尔"]
-                },
-                {"name":"trade-0-LMD-standby",
-                    "operators":["德克萨斯","拉普兰德","孑"]
-                },
-                {"name":"trade-0-LMD-EMER",
-                    "operators":["德克萨斯","拉普兰德","石英"]
+                    "operators":["麒麟R夜刀","火龙S黑角","戴菲恩","焰狐龙梓兰","歌蕾蒂娅"]
                 },
                 {"name":"trade-0-Orundum-main",
-                    "operators":["蕾缪安","能天使","空弦"]
+                    "operators":["空弦","摩根","推进之王"]
                 },
                 {"name":"trade-0-Orundum-standby",
-                    "operators":["德克萨斯","拉普兰德","孑"]
-                },
-                {"name":"trade-0-Orundum-EMER",
-                    "operators":["德克萨斯","拉普兰德","石英"]
+                    "operators":["孑","德克萨斯","拉普兰德"]
                 },
                 {"name":"trade-1-main",
                     "operators":["巫恋","柏喙","龙舌兰"]
@@ -50,41 +40,20 @@
                 {"name":"trade-1-standby",
                     "operators":["巫恋","卡夫卡","龙舌兰"]
                 },
-                {"name":"trade-1-EMER",
-                    "operators":["古米","月见夜","空爆"]
-                },
                 {"name":"trade-2-main",
-                    "operators":["但书","摩根","推进之王"]
+                    "operators":["但书","贝洛内","伺夜"]
                 },
                 {"name":"trade-2-standby",
                     "operators":["但书","孑","泰拉大陆调查团"]
-                },
-                {"name":"trade-2-EMER",
-                    "operators":["可露希尔","孑","泰拉大陆调查团"]
-                },
-                {"name":"manu-0-GOLD-main",
-                    "operators":["娜斯提","至简","槐琥"]
-                },
-                {"name":"manu-0-GOLD-standby-0",
-                    "operators":["夜烟","幽灵鲨","安哲拉"]
-                },
-                {"name":"manu-0-GOLD-standby-1",
-                    "operators":["娜斯提","至简","安哲拉"]
-                },
-                {"name":"manu-0-GOLD-EMER",
-                    "operators":["夜烟","幽灵鲨","安哲拉"]
                 },
                 {"name":"manu-0-Originium-Shard-main",
                     "operators":["褐果","至简","槐琥"]
                 },
                 {"name":"manu-0-Originium-Shard-standby-0",
-                    "operators":["地灵","幽灵鲨","安哲拉"]
+                    "operators":["结城理","幽灵鲨","安哲拉"]
                 },
                 {"name":"manu-0-Originium-Shard-standby-1",
                     "operators":["褐果","至简","安哲拉"]
-                },
-                {"name":"manu-0-Originium-Shard-EMER",
-                    "operators":["地灵","幽灵鲨","安哲拉"]
                 },
                 {"name":"manu-1-GOLD-main",
                     "operators":["砾","引星棘刺","苍苔"]
@@ -92,29 +61,11 @@
                 {"name":"manu-1-GOLD-standby-Originium-Shard",
                     "operators":["娜斯提","乌尔比安","斯卡蒂"]
                 },
-                {"name":"manu-1-GOLD-EMER-Originium-Shard",
-                    "operators":["娜斯提","乌尔比安","斯卡蒂"]
-                },
-                {"name":"manu-1-GOLD-standby-ALL-GOLD",
-                    "operators":["斑点","乌尔比安","斯卡蒂"]
-                },
-                {"name":"manu-1-GOLD-EMER-ALL-GOLD",
-                    "operators":["斑点","乌尔比安","斯卡蒂"]
-                },
                 {"name":"manu-2-GOLD-main",
                     "operators":["清流","温蒂","森蚺"]
                 },
                 {"name":"manu-2-GOLD-standby-Originium-Shard",
                     "operators":["幽灵鲨","乌尔比安","斯卡蒂"]
-                },
-                {"name":"manu-2-GOLD-EMER-Originium-Shard",
-                    "operators":["多萝西","赫默","白面鸮"]
-                },
-                {"name":"manu-2-GOLD-standby-ALL-GOLD",
-                    "operators":["幽灵鲨","乌尔比安","斯卡蒂"]
-                },
-                {"name":"manu-2-GOLD-EMER-ALL-GOLD",
-                    "operators":["泡泡","火神","贝娜"]
                 }
             ],
             "rooms":{
@@ -147,16 +98,16 @@
                 ],
                 "dormitory":[
                     {"sort":true,
-                        "operators":["菲亚梅塔","凯尔希·思衡托","八幡海铃","伊内丝","晓歌"]
+                        "operators":["菲亚梅塔","白面鸮","赫默","虎狼丸","岳羽由加莉"]
                     },
                     {
                         "operators":["流明","砾","引星棘刺","苍苔","至简"]
                     },
                     {
-                        "operators":["杜林","能天使","褐果","蕾缪安","空弦"]
+                        "operators":["杜林","烛煌","褐果","旅骨","伊芙利特"]
                     },
                     {
-                        "operators":["多萝西","白面鸮","赫默","烛煌","薇薇安娜"]
+                        "operators":["推进之王","摩根","空弦","戴菲恩","焰狐龙梓兰"]
                     }
                 ],
                 "power":[
@@ -167,7 +118,7 @@
                         "operators":["承曦格雷伊"]
                     },
                     {
-                        "operators":["澄闪"]
+                        "operators":["埃癸斯"]
                     }
                 ],
                 "meeting":[
@@ -184,14 +135,22 @@
                     {
                         "operators":["梅尔"]
                     }
+                ],
+                "recycle":[
+                    {
+                        "operators":["旅骨","伊芙利特"]
+                    }
                 ]
             }
         },
         {
             "name":"BP-02-搓玉-推王组/自动化/发电站",
-            "description":"05:15, 主要休息 部分中枢/推王组/自动化/发电站, 无人机加速 赤金",
+            "description":"05:15/13:15/21:15, 主要休息 部分中枢/推王组/自动化/发电站, 无人机加速 赤金",
             "period":[
-                ["03:31", "09:00"]
+                ["03:23", "09:00"],
+                ["11:23", "17:00"],
+                ["19:23", "23:59"],
+                ["00:00", "01:00"]
             ],
             "drones":{
                 "room":"manufacture",
@@ -204,34 +163,16 @@
                     "operators":["诗怀雅","斩业星熊","薇薇安娜","八幡海铃","戴菲恩"]
                 },
                 {"name":"control-0-standby-0",
-                    "operators":["诗怀雅","斩业星熊","戴菲恩","焰狐龙梓兰","歌蕾蒂娅"]
+                    "operators":["诗怀雅","斩业星熊","魔王","八幡海铃","歌蕾蒂娅"]
                 },
                 {"name":"control-0-standby-1",
-                    "operators":["麒麟R夜刀","火龙S黑角","薇薇安娜","八幡海铃","歌蕾蒂娅"]
-                },
-                {"name":"control-0-EMER-0",
-                    "operators":["麒麟R夜刀","火龙S黑角","焰狐龙梓兰","魔王","歌蕾蒂娅"]
-                },
-                {"name":"control-0-EMER-1",
-                    "operators":["麒麟R夜刀","火龙S黑角","薇薇安娜","八幡海铃","戴菲恩"]
-                },
-                {"name":"trade-0-LMD-main",
-                    "operators":["蕾缪安","能天使","可露希尔"]
-                },
-                {"name":"trade-0-LMD-standby",
-                    "operators":["德克萨斯","拉普兰德","孑"]
-                },
-                {"name":"trade-0-LMD-EMER",
-                    "operators":["德克萨斯","拉普兰德","石英"]
+                    "operators":["麒麟R夜刀","火龙S黑角","戴菲恩","焰狐龙梓兰","歌蕾蒂娅"]
                 },
                 {"name":"trade-0-Orundum-main",
-                    "operators":["蕾缪安","能天使","空弦"]
+                    "operators":["空弦","摩根","推进之王"]
                 },
                 {"name":"trade-0-Orundum-standby",
-                    "operators":["德克萨斯","拉普兰德","孑"]
-                },
-                {"name":"trade-0-Orundum-EMER",
-                    "operators":["德克萨斯","拉普兰德","石英"]
+                    "operators":["孑","德克萨斯","拉普兰德"]
                 },
                 {"name":"trade-1-main",
                     "operators":["巫恋","柏喙","龙舌兰"]
@@ -239,41 +180,20 @@
                 {"name":"trade-1-standby",
                     "operators":["巫恋","卡夫卡","龙舌兰"]
                 },
-                {"name":"trade-1-EMER",
-                    "operators":["古米","月见夜","空爆"]
-                },
                 {"name":"trade-2-main",
-                    "operators":["但书","摩根","推进之王"]
+                    "operators":["但书","贝洛内","伺夜"]
                 },
                 {"name":"trade-2-standby",
                     "operators":["但书","孑","泰拉大陆调查团"]
-                },
-                {"name":"trade-2-EMER",
-                    "operators":["可露希尔","孑","泰拉大陆调查团"]
-                },
-                {"name":"manu-0-GOLD-main",
-                    "operators":["娜斯提","至简","槐琥"]
-                },
-                {"name":"manu-0-GOLD-standby-0",
-                    "operators":["夜烟","幽灵鲨","安哲拉"]
-                },
-                {"name":"manu-0-GOLD-standby-1",
-                    "operators":["娜斯提","至简","安哲拉"]
-                },
-                {"name":"manu-0-GOLD-EMER",
-                    "operators":["夜烟","幽灵鲨","安哲拉"]
                 },
                 {"name":"manu-0-Originium-Shard-main",
                     "operators":["褐果","至简","槐琥"]
                 },
                 {"name":"manu-0-Originium-Shard-standby-0",
-                    "operators":["地灵","幽灵鲨","安哲拉"]
+                    "operators":["结城理","幽灵鲨","安哲拉"]
                 },
                 {"name":"manu-0-Originium-Shard-standby-1",
                     "operators":["褐果","至简","安哲拉"]
-                },
-                {"name":"manu-0-Originium-Shard-EMER",
-                    "operators":["地灵","幽灵鲨","安哲拉"]
                 },
                 {"name":"manu-1-GOLD-main",
                     "operators":["砾","引星棘刺","苍苔"]
@@ -281,29 +201,11 @@
                 {"name":"manu-1-GOLD-standby-Originium-Shard",
                     "operators":["娜斯提","乌尔比安","斯卡蒂"]
                 },
-                {"name":"manu-1-GOLD-EMER-Originium-Shard",
-                    "operators":["娜斯提","乌尔比安","斯卡蒂"]
-                },
-                {"name":"manu-1-GOLD-standby-ALL-GOLD",
-                    "operators":["斑点","乌尔比安","斯卡蒂"]
-                },
-                {"name":"manu-1-GOLD-EMER-ALL-GOLD",
-                    "operators":["斑点","乌尔比安","斯卡蒂"]
-                },
                 {"name":"manu-2-GOLD-main",
                     "operators":["清流","温蒂","森蚺"]
                 },
                 {"name":"manu-2-GOLD-standby-Originium-Shard",
                     "operators":["幽灵鲨","乌尔比安","斯卡蒂"]
-                },
-                {"name":"manu-2-GOLD-EMER-Originium-Shard",
-                    "operators":["多萝西","赫默","白面鸮"]
-                },
-                {"name":"manu-2-GOLD-standby-ALL-GOLD",
-                    "operators":["幽灵鲨","乌尔比安","斯卡蒂"]
-                },
-                {"name":"manu-2-GOLD-EMER-ALL-GOLD",
-                    "operators":["泡泡","火神","贝娜"]
                 }
             ],
             "rooms":{
@@ -336,16 +238,16 @@
                 ],
                 "dormitory":[
                     {"sort":true,
-                        "operators":["菲亚梅塔","凯尔希·思衡托","缪尔赛思","承曦格雷伊","年"]
+                        "operators":["菲亚梅塔","缪尔赛思","薇薇安娜","承曦格雷伊","柏喙"]
                     },
                     {
-                        "operators":["杜林","清流","温蒂","森蚺","九色鹿"]
+                        "operators":["流明","凯尔希·思衡托","槐琥","伊内丝","晓歌"]
                     },
                     {
-                        "operators":["冰酿","柏喙","槐琥","摩根","推进之王"]
+                        "operators":["杜林","斩业星熊","清流","温蒂","森蚺"]
                     },
                     {
-                        "operators":["诗怀雅","斩业星熊","戴菲恩","白铁","芳汀"]
+                        "operators":["冰酿","诗怀雅","八幡海铃","贝洛内","伺夜"]
                     }
                 ],
                 "power":[
@@ -361,7 +263,7 @@
                 ],
                 "meeting":[
                     {"sort":true,
-                        "operators":["伊内丝","晓歌"]
+                        "operators":["提丰","凛视"]
                     }
                 ],
                 "hire":[
@@ -372,6 +274,11 @@
                 "processing":[
                     {
                         "operators":["梅尔"]
+                    }
+                ],
+                "recycle":[
+                    {
+                        "operators":["旅骨","伊芙利特"]
                     }
                 ]
             }

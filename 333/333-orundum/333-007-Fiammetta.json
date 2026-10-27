@@ -17,7 +17,7 @@
             },
             "drones":{
                 "room":"trading",
-                "index":1,
+                "index":2,
                 "enable":true,
                 "order":"pre"
             },
@@ -159,7 +159,7 @@
             },
             "drones":{
                 "room":"trading",
-                "index":1,
+                "index":2,
                 "enable":true,
                 "order":"pre"
             },
@@ -302,7 +302,7 @@
             },
             "drones":{
                 "room":"trading",
-                "index":1,
+                "index":2,
                 "enable":true,
                 "order":"pre"
             },

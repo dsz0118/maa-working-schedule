@@ -16,8 +16,8 @@
                 "order":"pre"
             },
             "drones":{
-                "room":"trading",
-                "index":1,
+                "room":"manufacture",
+                "index":3,
                 "enable":true,
                 "order":"pre"
             },
@@ -141,6 +141,12 @@
             "Fiammetta":{
                 "enable":true,
                 "target":"巫恋",
+                "order":"pre"
+            },
+            "drones":{
+                "room":"manufacture",
+                "index":3,
+                "enable":true,
                 "order":"pre"
             },
             "groups":[
@@ -267,8 +273,8 @@
                 "order":"pre"
             },
             "drones":{
-                "room":"trading",
-                "index":1,
+                "room":"manufacture",
+                "index":3,
                 "enable":true,
                 "order":"pre"
             },

@@ -16,8 +16,8 @@
                 "order":"pre"
             },
             "drones":{
-                "room":"manufacture",
-                "index":3,
+                "room":"trade",
+                "index":1,
                 "enable":true,
                 "order":"pre"
             },
@@ -144,8 +144,8 @@
                 "order":"pre"
             },
             "drones":{
-                "room":"manufacture",
-                "index":3,
+                "room":"trade",
+                "index":1,
                 "enable":true,
                 "order":"pre"
             },
@@ -273,8 +273,8 @@
                 "order":"pre"
             },
             "drones":{
-                "room":"manufacture",
-                "index":3,
+                "room":"trade",
+                "index":1,
                 "enable":true,
                 "order":"pre"
             },

@@ -11,8 +11,8 @@
         {"name": "trade-standby-1", "operators": ["但书","摩根","推进之王"]},
 
         {"name": "manu-EXP-main-0", "operators": ["远牙","灰毫","野鬃"]},
-        {"name": "manu-EXP-main-1", "operators": ["断罪者","槐琥","至简"]},
-        {"name": "manu-EXP-standby", "operators": ["酒神","斯卡蒂","乌尔比安"]},
+        {"name": "manu-EXP-main-1", "operators": ["结城理","槐琥","至简"]},
+        {"name": "manu-EXP-standby", "operators": ["断罪者","斯卡蒂","乌尔比安"]},
         
         {"name": "manu-GOLD-main-0", "operators": ["砾","引星棘刺","苍苔"]},
         {"name": "manu-GOLD-main-1", "operators": ["清流","温蒂","森蚺"]},

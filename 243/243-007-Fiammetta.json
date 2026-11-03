@@ -47,10 +47,10 @@
                     "operators":["远牙","灰毫","野鬃"]
                 },
                 {"name":"manu-EXP-main-1",
-                    "operators":["断罪者","槐琥","至简"]
+                    "operators":["结城理","槐琥","至简"]
                 },
                 {"name":"manu-EXP-standby",
-                    "operators":["酒神","斯卡蒂","乌尔比安"]
+                    "operators":["断罪者","斯卡蒂","乌尔比安"]
                 },
                 {"name":"manu-GOLD-main-0",
                     "operators":["砾","引星棘刺","苍苔"]
@@ -95,14 +95,12 @@
                         "operators":["菲亚梅塔","真言","多萝西","白面鸮","赫默"]
                     },
                     {"sort":true,
-                        "operators":["电弧","娜斯提","九色鹿","年","白铁"]
+                        "operators":["电弧","娜斯提","伊芙利特","虎狼丸","岳羽由加莉"]
                     },
                     {"sort":true,
-                        "operators":["煌","","","",""]
+                        "operators":["机械师","旅骨","","",""]
                     },
-                    {"sort":true,
-                        "operators":["迷迭香","","","",""]
-                    }
+                    {"skip": true}
                 ],
                 "power":[
                     {
@@ -112,7 +110,7 @@
                         "operators":["承曦格雷伊"]
                     },
                     {
-                        "operators":["烛煌"]
+                        "operators":["埃癸斯"]
                     }
                 ],
                 "meeting":[
@@ -127,7 +125,17 @@
                 ],
                 "processing":[
                     {
-                        "operators":["梅尔"]
+                        "operators":["煌"]
+                    }
+                ],
+                "recycle":[
+                    {
+                        "operators":["行铃","国度"]
+                    }
+                ],
+                "training":[
+                    {
+                        "operatorsA": ["逻各斯"]
                     }
                 ]
             }
@@ -175,10 +183,10 @@
                     "operators":["远牙","灰毫","野鬃"]
                 },
                 {"name":"manu-EXP-main-1",
-                    "operators":["断罪者","槐琥","至简"]
+                    "operators":["结城理","槐琥","至简"]
                 },
                 {"name":"manu-EXP-standby",
-                    "operators":["酒神","斯卡蒂","乌尔比安"]
+                    "operators":["断罪者","斯卡蒂","乌尔比安"]
                 },
                 {"name":"manu-GOLD-main-0",
                     "operators":["砾","引星棘刺","苍苔"]
@@ -223,13 +231,13 @@
                         "operators":["菲亚梅塔","真言","多萝西","白面鸮","赫默"]
                     },
                     {"sort":true,
-                        "operators":["电弧","娜斯提","九色鹿","年","焰狐龙梓兰"]
+                        "operators":["电弧","娜斯提","伊芙利特","虎狼丸","岳羽由加莉"]
                     },
                     {"sort":true,
-                        "operators":["煌","斥罪","歌蕾蒂娅","推进之王","摩根"]
+                        "operators":["机械师","斥罪","歌蕾蒂娅","推进之王","摩根"]
                     },
                     {"sort":true,
-                        "operators":["迷迭香","阿斯卡纶","戴菲恩","提丰","凛视"]
+                        "operators":["行铃","阿斯卡纶","戴菲恩","提丰","凛视"]
                     }
                 ],
                 "power":[
@@ -240,7 +248,7 @@
                         "operators":["承曦格雷伊"]
                     },
                     {
-                        "operators":["烛煌"]
+                        "operators":["埃癸斯"]
                     }
                 ],
                 "meeting":[
@@ -255,7 +263,17 @@
                 ],
                 "processing":[
                     {
-                        "operators":["梅尔"]
+                        "operators":["煌"]
+                    }
+                ],
+                "recycle":[
+                    {
+                        "operators":["旅骨","国度"]
+                    }
+                ],
+                "training":[
+                    {
+                        "operatorsA": ["逻各斯"]
                     }
                 ]
             }
@@ -304,10 +322,10 @@
                     "operators":["远牙","灰毫","野鬃"]
                 },
                 {"name":"manu-EXP-main-1",
-                    "operators":["断罪者","槐琥","至简"]
+                    "operators":["结城理","槐琥","至简"]
                 },
                 {"name":"manu-EXP-standby",
-                    "operators":["酒神","斯卡蒂","乌尔比安"]
+                    "operators":["断罪者","斯卡蒂","乌尔比安"]
                 },
                 {"name":"manu-GOLD-main-0",
                     "operators":["砾","引星棘刺","苍苔"]
@@ -352,13 +370,13 @@
                         "operators":["菲亚梅塔","真言","多萝西","白面鸮","赫默"]
                     },
                     {"sort":true,
-                        "operators":["电弧","娜斯提","九色鹿","年","白铁"]
+                        "operators":["电弧","娜斯提","伊芙利特","虎狼丸","岳羽由加莉"]
                     },
                     {"sort":true,
-                        "operators":["煌","乌尔比安","斯卡蒂","幽灵鲨","安哲拉"]
+                        "operators":["机械师","乌尔比安","斯卡蒂","幽灵鲨","安哲拉"]
                     },
                     {"sort":true,
-                        "operators":["迷迭香","卡夫卡","酒神","格雷伊","澄闪"]
+                        "operators":["国度","卡夫卡","断罪者","格雷伊","澄闪"]
                     }
                 ],
                 "power":[
@@ -369,7 +387,7 @@
                         "operators":["承曦格雷伊"]
                     },
                     {
-                        "operators":["烛煌"]
+                        "operators":["埃癸斯"]
                     }
                 ],
                 "meeting":[
@@ -384,7 +402,17 @@
                 ],
                 "processing":[
                     {
-                        "operators":["梅尔"]
+                        "operators":["煌"]
+                    }
+                ],
+                "recycle":[
+                    {
+                        "operators":["旅骨","行铃"]
+                    }
+                ],
+                "training":[
+                    {
+                        "operatorsA": ["逻各斯"]
                     }
                 ]
             }

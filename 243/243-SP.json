@@ -1,0 +1,38 @@
+{
+    "author":"GitHub@dsz0118",
+    "description":"用来休闲材料组, 以及来不及休息的干员",
+    "title":"SP-REST",
+    "buildingType":243,
+    "plans":[
+        {
+            "name":"SP-补充休息班",
+            "description":"05:00, 用来休闲材料组, 以及来不及休息的干员",
+            "period":[
+                ["03:00", "07:00"]
+            ],
+            "rooms":{
+                "dormitory":[
+                    {"sort":true,
+                        "operators":["菲亚梅塔","真言","多萝西","白面鸮","赫默"]
+                    },
+                    {"sort":true,
+                        "operators":["电弧","娜斯提","伊芙利特","虎狼丸","岳羽由加莉"]
+                    },
+                    {"sort":true,
+                        "operators":["机械师","烛煌","焰狐龙梓兰","九色鹿","冰酿"]
+                    },
+                    {"sort":true,
+                        "operators":["流明","年","白铁","芳汀","号角"]
+                    }
+                ]
+            }
+        }
+    ],
+    "scheduleType":{
+        "planTimes":1,
+        "trading":2,
+        "manufacture":4,
+        "power":3,
+        "dormitory":4
+    }
+}

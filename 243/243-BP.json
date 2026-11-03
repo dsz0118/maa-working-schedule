@@ -38,10 +38,10 @@
                     "operators":["远牙","灰毫","野鬃"]
                 },
                 {"name":"manu-EXP-main-1",
-                    "operators":["断罪者","槐琥","至简"]
+                    "operators":["结城理","槐琥","至简"]
                 },
                 {"name":"manu-EXP-standby",
-                    "operators":["酒神","斯卡蒂","乌尔比安"]
+                    "operators":["断罪者","斯卡蒂","乌尔比安"]
                 },
                 {"name":"manu-GOLD-main-0",
                     "operators":["砾","引星棘刺","苍苔"]
@@ -86,7 +86,7 @@
                         "operators":["菲亚梅塔","多萝西","白面鸮","赫默","远牙"]
                     },
                     {"sort":true,
-                        "operators":["流明","烛煌","凯尔希·思衡托","贝洛内","伺夜"]
+                        "operators":["流明","旅骨","凯尔希·思衡托","贝洛内","伺夜"]
                     },
                     {"sort":true,
                         "operators":["杜林","引星棘刺","苍苔","野鬃","灰毫"]
@@ -103,7 +103,7 @@
                         "operators":["承曦格雷伊"]
                     },
                     {
-                        "operators":["澄闪"]
+                        "operators":["埃癸斯"]
                     }
                 ],
                 "meeting":[
@@ -120,7 +120,12 @@
                     {
                         "operators":["梅尔"]
                     }
-                ]
+                ],
+                "recycle":[
+                    {
+                        "operators":["行铃","国度"]
+                    }
+                ],
             }
         },
         {
@@ -164,10 +169,10 @@
                     "operators":["远牙","灰毫","野鬃"]
                 },
                 {"name":"manu-EXP-main-1",
-                    "operators":["断罪者","槐琥","至简"]
+                    "operators":["结城理","槐琥","至简"]
                 },
                 {"name":"manu-EXP-standby",
-                    "operators":["酒神","斯卡蒂","乌尔比安"]
+                    "operators":["断罪者","斯卡蒂","乌尔比安"]
                 },
                 {"name":"manu-GOLD-main-0",
                     "operators":["砾","引星棘刺","苍苔"]
@@ -209,13 +214,13 @@
                 ],
                 "dormitory":[
                     {"sort":true,
-                        "operators":["菲亚梅塔","多萝西","白面鸮","赫默","缪尔赛思"]
+                        "operators":["菲亚梅塔","多萝西","白面鸮","柏喙","缪尔赛思"]
                     },
                     {"sort":true,
-                        "operators":["流明","承曦格雷伊","伊内丝","晓歌","柏喙"]
+                        "operators":["流明","承曦格雷伊","伊内丝","晓歌","埃癸斯"]
                     },
                     {"sort":true,
-                        "operators":["杜林","诗怀雅","斩业星熊","槐琥","断罪者"]
+                        "operators":["杜林","诗怀雅","斩业星熊","槐琥","结城理"]
                     },
                     {"sort":true,
                         "operators":["冰酿","至简","清流","温蒂","森蚺"]
@@ -246,7 +251,12 @@
                     {
                         "operators":["梅尔"]
                     }
-                ]
+                ],
+                "recycle":[
+                    {
+                        "operators":["行铃","国度"]
+                    }
+                ],
             }
         }
     ],
